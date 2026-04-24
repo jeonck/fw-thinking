@@ -32,9 +32,13 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    subgraph SLA["SLA 구성 요소"]
+    subgraph R1["　"]
+        direction LR
         S1["서비스 범위<br/>(Scope)<br/>대상 서비스 및<br/>책임 경계 정의"]
         S2["성과 지표<br/>(KPI/SLI)<br/>가용성, 응답시간<br/>처리량, 오류율"]
+    end
+    subgraph R2["　"]
+        direction LR
         S3["보고 체계<br/>(Reporting)<br/>측정 주기,<br/>보고 형식 및 절차"]
         S4["위반 시 조치<br/>(Penalty)<br/>SLA 미달 시<br/>패널티·크레딧 조항"]
     end
@@ -43,6 +47,8 @@ flowchart TD
     style S2 fill:#F3E5F5,stroke:#7B1FA2,color:#000
     style S3 fill:#FFF3E0,stroke:#F57C00,color:#000
     style S4 fill:#FFEBEE,stroke:#D32F2F,color:#000
+    style R1 fill:none,stroke:none
+    style R2 fill:none,stroke:none
 ```
 
 | 구성 요소 | 주요 내용 | 예시 |
