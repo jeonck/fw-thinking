@@ -1,6 +1,7 @@
 {
   "label": "01. IT 거버넌스 및 전략 경영",
   "position": 1,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "IT 거버넌스 프레임워크와 전략 경영 방법론을 구조적으로 정리합니다."

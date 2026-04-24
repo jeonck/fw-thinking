@@ -1,6 +1,7 @@
 {
   "label": "06. 미래 기술 대응 및 도메인 특화",
   "position": 6,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "미래 기술 트렌드 대응과 도메인 특화 프레임워크를 구조적으로 정리합니다."

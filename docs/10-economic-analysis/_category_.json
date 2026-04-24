@@ -1,6 +1,7 @@
 {
   "label": "10. 경제성 분석 및 비즈니스 의사결정",
   "position": 10,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "IT 투자의 경제성 분석과 비즈니스 의사결정 프레임워크를 구조적으로 정리합니다."

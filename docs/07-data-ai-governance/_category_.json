@@ -1,6 +1,7 @@
 {
   "label": "07. 데이터 관리 및 AI 거버넌스",
   "position": 7,
+  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "데이터 관리 체계와 AI 거버넌스 프레임워크를 구조적으로 정리합니다."
