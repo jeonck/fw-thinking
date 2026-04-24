@@ -1,7 +1,6 @@
 {
   "label": "09. 품질 관리 및 신뢰성",
   "position": 9,
-  "collapsed": false,
   "link": {
     "type": "generated-index",
     "description": "소프트웨어 품질 관리와 시스템 신뢰성 프레임워크를 구조적으로 정리합니다."
