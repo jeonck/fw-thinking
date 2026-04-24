@@ -20,15 +20,15 @@ title: COBIT 2019
 
 ```mermaid
 flowchart TB
-    subgraph GOV["🏛️ 거버넌스 영역 (이사회 / 경영진)"]
-        EDM["EDM\nEvaluate · Direct · Monitor\n평가 · 지시 · 모니터링"]
+    subgraph GOV["거버넌스 영역 (이사회 / 경영진)"]
+        EDM["EDM<br/>Evaluate · Direct · Monitor<br/>평가 · 지시 · 모니터링"]
     end
 
-    subgraph MGT["⚙️ 관리 영역 (실무 부서)"]
-        APO["APO\nAlign, Plan & Organize\n정렬·계획·조직화"]
-        BAI["BAI\nBuild, Acquire & Implement\n구축·획득·구현"]
-        DSS["DSS\nDeliver, Service & Support\n제공·서비스·지원"]
-        MEA["MEA\nMonitor, Evaluate & Assess\n모니터링·평가·검토"]
+    subgraph MGT["관리 영역 (실무 부서)"]
+        APO["APO<br/>Align, Plan & Organize<br/>정렬 · 계획 · 조직화"]
+        BAI["BAI<br/>Build, Acquire & Implement<br/>구축 · 획득 · 구현"]
+        DSS["DSS<br/>Deliver, Service & Support<br/>제공 · 서비스 · 지원"]
+        MEA["MEA<br/>Monitor, Evaluate & Assess<br/>모니터링 · 평가 · 검토"]
     end
 
     GOV -->|"방향 제시 / 목표 설정"| MGT
@@ -50,10 +50,10 @@ flowchart TB
 
 ```mermaid
 flowchart LR
-    DF["🔍 설계 요인 분석\nDesign Factors\n\n기업 전략 / 위험 프로필\nIT 역할 / 규모 / 기타\n(총 11개 요인)"]
-    OPT["⚙️ 가이드라인 최적화\nGovernance System\nDesign\n\n목표 우선순위 도출\n프로세스 선택 및 조정"]
-    FA["🎯 중점 영역 적용\nFocus Areas\n\nCloud · Cybersecurity\nDevOps · 기타 특화 지침"]
-    CPM["📊 성능 관리\nCPM\n\n역량 수준 측정\n0 ~ 5단계"]
+    DF["설계 요인 분석<br/>Design Factors<br/>기업 전략 / 위험 프로필<br/>IT 역할 / 규모 (총 11개 요인)"]
+    OPT["가이드라인 최적화<br/>Governance System Design<br/>목표 우선순위 도출<br/>프로세스 선택 및 조정"]
+    FA["중점 영역 적용<br/>Focus Areas<br/>Cloud · Cybersecurity<br/>DevOps · 기타 특화 지침"]
+    CPM["성능 관리<br/>CPM<br/>역량 수준 측정<br/>0 ~ 5단계"]
 
     DF --> OPT --> FA --> CPM
 ```
@@ -62,12 +62,12 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    L0["0\n미실행\nIncomplete"]
-    L1["1\n수행됨\nPerformed"]
-    L2["2\n관리됨\nManaged"]
-    L3["3\n정의됨\nEstablished"]
-    L4["4\n정량적 관리\nPredictable"]
-    L5["5\n최적화\nOptimizing"]
+    L0["0<br/>미실행<br/>Incomplete"]
+    L1["1<br/>수행됨<br/>Performed"]
+    L2["2<br/>관리됨<br/>Managed"]
+    L3["3<br/>정의됨<br/>Established"]
+    L4["4<br/>정량적 관리<br/>Predictable"]
+    L5["5<br/>최적화<br/>Optimizing"]
 
     L0 --> L1 --> L2 --> L3 --> L4 --> L5
 
@@ -109,17 +109,21 @@ mindmap
 
 ```mermaid
 flowchart TD
+    COBIT["COBIT 2019 도입"]
+
     subgraph STR["전략적"]
-        S1["IT-비즈니스 정렬\n디지털 전환(DX) 전략 수립 시\n거버넌스 기준으로 활용"]
+        S1["IT-비즈니스 정렬<br/>디지털 전환 전략 수립 시<br/>거버넌스 기준으로 활용"]
     end
     subgraph OPS["운영적"]
-        O1["위험 및 자원 최적화\nIT 감사(Audit) 및\n컴플라이언스 대응 체계 구축"]
+        O1["위험 및 자원 최적화<br/>IT 감사 및<br/>컴플라이언스 대응 체계 구축"]
     end
     subgraph CUL["문화적"]
-        C1["책임 추적성 확보\nRACI 차트를 활용한\nIT 조직 내 R&R 명확화"]
+        C1["책임 추적성 확보<br/>RACI 차트를 활용한<br/>IT 조직 내 R&R 명확화"]
     end
 
-    COBIT["COBIT 2019\n도입"] --> STR & OPS & CUL
+    COBIT --> STR
+    COBIT --> OPS
+    COBIT --> CUL
 ```
 
 | 구분 | 주요 기대효과 | 활용 및 실무 적용 방안 |
