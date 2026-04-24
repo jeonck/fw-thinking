@@ -11,10 +11,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://jeonck2000.github.io',
+  url: 'https://jeonck.github.io',
   baseUrl: '/fw-thinking/',
 
-  organizationName: 'jeonck2000',
+  organizationName: 'jeonck',
   projectName: 'fw-thinking',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
@@ -98,7 +98,7 @@ const config: Config = {
           ],
         },
         {
-          href: 'https://github.com/jeonck2000/fw-thinking',
+          href: 'https://github.com/jeonck/fw-thinking',
           label: 'GitHub',
           position: 'right',
         },
@@ -133,7 +133,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/jeonck2000/fw-thinking',
+              href: 'https://github.com/jeonck/fw-thinking',
             },
           ],
         },
