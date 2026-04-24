@@ -1,0 +1,51 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whySection {
+  padding: 3rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.whySection h2 {
+  margin-bottom: 1rem;
+}
+
+.whySection > .container > p {
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+}
+
+.whyCard {
+  border-left: 4px solid var(--ifm-color-primary);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: var(--ifm-background-color);
+  border-radius: 0 6px 6px 0;
+}
+
+.whyCard h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}

@@ -1,0 +1,8 @@
+{
+  "label": "02. 엔터프라이즈 아키텍처 (EA) 및 설계",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "엔터프라이즈 아키텍처 프레임워크와 설계 방법론을 구조적으로 정리합니다."
+  }
+}

@@ -1,0 +1,60 @@
+.features {
+  padding: 3rem 0;
+  width: 100%;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.categoryCard {
+  margin-bottom: 1.5rem;
+}
+
+.cardLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+}
+
+.cardLink:hover {
+  text-decoration: none;
+}
+
+.cardInner {
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  height: 100%;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.cardInner:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.cardNum {
+  display: inline-block;
+  background-color: var(--ifm-color-primary);
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.cardTitle {
+  font-size: 1rem !important;
+  margin-bottom: 0.4rem;
+}
+
+.cardDesc {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 0;
+}
