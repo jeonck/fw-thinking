@@ -46,7 +46,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph A["실험 중심 모델 개발 (A)"]
+    subgraph A["실험 중심 모델 개발 "]
         A1["수동 모델 훈련<br/>(파편화된 파이프라인)"]
     end
 
@@ -56,7 +56,7 @@ flowchart LR
         T2["지속적 학습(CT)"]
     end
 
-    subgraph B["MLOps 운영 체계 (B)"]
+    subgraph B["MLOps 운영 체계 "]
         B1["모델 생애주기 관리<br/>(운영 안정성/신뢰성)"]
     end
 

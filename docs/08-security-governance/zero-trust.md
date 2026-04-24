@@ -55,7 +55,7 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    subgraph A["전통적 경계 보안 (A)"]
+    subgraph A["전통적 경계 보안 "]
         A1["신뢰 기반 접근<br/>(VPN/방화벽)"]
     end
 
@@ -65,7 +65,7 @@ flowchart LR
         T2["마이크로 세그멘테이션"]
     end
 
-    subgraph B["제로 트러스트 (B)"]
+    subgraph B["제로 트러스트 "]
         B1["ID 기반 접근 통제<br/>(Never Trust)"]
     end
 
@@ -73,7 +73,7 @@ flowchart LR
     TRANS --> B
 ```
 
-| 비교 항목 | 전통적 경계 보안 (A) | 제로 트러스트 (B) |
+| 비교 항목 | 전통적 경계 보안  | 제로 트러스트  |
 |---|---|---|
 | **기본 원칙** | 성곽식 보안 (Trust-but-Verify) | 제로 트러스트 (Never Trust) |
 | **접근 제어** | 네트워크 경계(IP/VLAN) | ID 및 컨텍스트 기반 |

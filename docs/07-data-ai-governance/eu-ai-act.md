@@ -18,7 +18,7 @@ title: EU AI Act
 
 ```mermaid
 flowchart LR
-    subgraph A["규제 없는 AI (A)"]
+    subgraph A["규제 없는 AI "]
         A1["무분별한 AI 기술 도입<br/>(기술 중심)"]
     end
 
@@ -28,7 +28,7 @@ flowchart LR
         T2["투명성 및 거버넌스"]
     end
 
-    subgraph B["안전한 AI 생태계 (B)"]
+    subgraph B["안전한 AI 생태계 "]
         B1["위험 기반 규제 체계<br/>(EU AI Act 준수)"]
     end
 

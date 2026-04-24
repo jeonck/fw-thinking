@@ -20,7 +20,7 @@ title: Data Mesh
 
 ```mermaid
 flowchart LR
-    subgraph A["중앙 집중형 DW (A)"]
+    subgraph A["중앙 집중형 DW "]
         A1["중앙 관리형 데이터<br/>(데이터 사일로)"]
     end
 
@@ -30,7 +30,7 @@ flowchart LR
         T2["데이터 제품화(Product)"]
     end
 
-    subgraph B["데이터 메시 (B)"]
+    subgraph B["데이터 메시 "]
         B1["탈중앙 데이터 관리<br/>(데이터 민주화)"]
     end
 

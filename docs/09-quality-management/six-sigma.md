@@ -20,7 +20,7 @@ title: Six Sigma
 
 ```mermaid
 flowchart LR
-    subgraph A["경험 중심 관리 (A)"]
+    subgraph A["경험 중심 관리 "]
         A1["변동성 내재된 품질<br/>(사후 대응)"]
     end
 
@@ -30,7 +30,7 @@ flowchart LR
         T2["DMAIC 방법론"]
     end
 
-    subgraph B["과학적 품질 혁신 (B)"]
+    subgraph B["과학적 품질 혁신 "]
         B1["6시그마 무결점 지향<br/>(3.4 DPMO)"]
     end
 

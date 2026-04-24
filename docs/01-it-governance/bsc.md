@@ -20,7 +20,7 @@ title: BSC (Balanced Scorecard)
 
 ```mermaid
 flowchart LR
-    subgraph A["전통적 성과 관리 (A)"]
+    subgraph A["전통적 성과 관리 "]
         A1["재무 지표 중심<br/>(단기 결과 위주)"]
     end
 
@@ -30,7 +30,7 @@ flowchart LR
         T2["4대 관점(재무/고객/프로세스/학습)"]
     end
 
-    subgraph B["전략 경영 시스템 (B)"]
+    subgraph B["전략 경영 시스템 "]
         B1["균형 성과 관리(BSC)<br/>(전략 실행력 강화)"]
     end
 

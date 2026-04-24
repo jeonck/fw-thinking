@@ -20,7 +20,7 @@ title: OKR (Objectives and Key Results)
 
 ```mermaid
 flowchart LR
-    subgraph A["전통적 목표 관리 (A)"]
+    subgraph A["전통적 목표 관리 "]
         A1["하향식 단기 할당<br/>(통제 중심)"]
     end
 
@@ -30,7 +30,7 @@ flowchart LR
         T2["투명한 목표 공유"]
     end
 
-    subgraph B["OKR 목표 관리 (B)"]
+    subgraph B["OKR 목표 관리 "]
         B1["목표 정렬 및 자율성<br/>(전략 실행력 극대화)"]
     end
 
