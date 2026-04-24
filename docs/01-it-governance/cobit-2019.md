@@ -35,6 +35,14 @@ flowchart TB
     MGT -->|"성과 보고 / 피드백"| GOV
     APO --> BAI --> DSS --> MEA
     MEA -->|"개선 환류"| APO
+
+    style GOV fill:#EFF6FF,stroke:#2563EB,color:#1E3A5F
+    style MGT fill:#F0FDF4,stroke:#16A34A,color:#14532D
+    style EDM fill:#2563EB,stroke:#1D4ED8,color:#fff
+    style APO fill:#16A34A,stroke:#15803D,color:#fff
+    style BAI fill:#0891B2,stroke:#0E7490,color:#fff
+    style DSS fill:#7C3AED,stroke:#6D28D9,color:#fff
+    style MEA fill:#EA580C,stroke:#C2410C,color:#fff
 ```
 
 | 영역 | 주요 내용 | 비고 |
@@ -56,6 +64,11 @@ flowchart LR
     CPM["성능 관리<br/>CPM<br/>역량 수준 측정<br/>0 ~ 5단계"]
 
     DF --> OPT --> FA --> CPM
+
+    style DF  fill:#2563EB,stroke:#1D4ED8,color:#fff
+    style OPT fill:#7C3AED,stroke:#6D28D9,color:#fff
+    style FA  fill:#EA580C,stroke:#C2410C,color:#fff
+    style CPM fill:#16A34A,stroke:#15803D,color:#fff
 ```
 
 #### 성능 관리 수준 (CPM: Capability and Performance Management)
@@ -124,6 +137,14 @@ flowchart TD
     COBIT --> STR
     COBIT --> OPS
     COBIT --> CUL
+
+    style COBIT fill:#1E3A5F,stroke:#1E3A5F,color:#fff
+    style STR   fill:#EFF6FF,stroke:#2563EB,color:#1E3A5F
+    style OPS   fill:#F0FDF4,stroke:#16A34A,color:#14532D
+    style CUL   fill:#FFF7ED,stroke:#EA580C,color:#7C2D12
+    style S1    fill:#2563EB,stroke:#1D4ED8,color:#fff
+    style O1    fill:#16A34A,stroke:#15803D,color:#fff
+    style C1    fill:#EA580C,stroke:#C2410C,color:#fff
 ```
 
 | 구분 | 주요 기대효과 | 활용 및 실무 적용 방안 |
