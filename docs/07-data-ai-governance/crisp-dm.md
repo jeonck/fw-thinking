@@ -31,13 +31,13 @@ flowchart LR
 ### 가. 6단계 분석 절차
 
 ```mermaid
-flowchart TD
-    S1["1단계. Business Understanding<br/>(비즈니스 이해)<br/>목표 정의, 성공 기준 설정<br/>분석 계획 수립"]
-    S2["2단계. Data Understanding<br/>(데이터 이해)<br/>데이터 수집, 탐색적 분석<br/>품질 문제 식별"]
-    S3["3단계. Data Preparation<br/>(데이터 준비)<br/>정제·변환·통합<br/>분석용 데이터셋 구성"]
-    S4["4단계. Modeling<br/>(모델링)<br/>알고리즘 선택, 모델 훈련<br/>파라미터 최적화"]
-    S5["5단계. Evaluation<br/>(평가)<br/>모델 성능 평가<br/>비즈니스 목표 부합성 검토"]
-    S6["6단계. Deployment<br/>(배포)<br/>모델 운영 환경 적용<br/>모니터링·유지보수"]
+flowchart LR
+    S1["1단계<br/>Business<br/>Understanding<br/>목표 정의·계획"]
+    S2["2단계<br/>Data<br/>Understanding<br/>수집·탐색·품질"]
+    S3["3단계<br/>Data<br/>Preparation<br/>정제·변환·통합"]
+    S4["4단계<br/>Modeling<br/>알고리즘 선택<br/>모델 훈련"]
+    S5["5단계<br/>Evaluation<br/>성능 평가<br/>목표 부합 검토"]
+    S6["6단계<br/>Deployment<br/>운영 적용<br/>모니터링"]
 
     S1 --> S2 --> S3 --> S4 --> S5 --> S6
 
