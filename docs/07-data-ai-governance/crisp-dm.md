@@ -64,25 +64,27 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    subgraph OUTER["외부 루프: 프로젝트 반복 (Project Iteration)"]
+    subgraph ROW1["　"]
         direction LR
-        BU["Business<br/>Understanding"] --> DU["Data<br/>Understanding"]
-        DU --> DP["Data<br/>Preparation"]
-        DP --> MOD["Modeling"]
-        MOD --> EVAL["Evaluation"]
-        EVAL --> DEP["Deployment"]
-        EVAL -->|"목표 미달 시<br/>재정의"| BU
+        BU["Business<br/>Understanding"] --> DU["Data<br/>Understanding"] --> DP["Data<br/>Preparation"]
+    end
+    subgraph ROW2["　"]
+        direction LR
+        MOD["Modeling"] --> EVAL["Evaluation"] --> DEP["Deployment"]
     end
 
-    subgraph INNER["내부 루프: 단계 간 피드백 (Step Feedback)"]
-        direction LR
-        DP2["Data Preparation"] -->|"품질 이슈 발견"| DU2["Data Understanding"]
-        MOD2["Modeling"] -->|"데이터 보완 필요"| DP2
-    end
+    DP --> MOD
+    EVAL -->|"목표 미달 시 재정의"| BU
+    DP -->|"품질 이슈 발견"| DU
 
-    style BU  fill:#E3F2FD,stroke:#1976D2,color:#000
+    style BU   fill:#E3F2FD,stroke:#1976D2,color:#000
+    style DU   fill:#E8EAF6,stroke:#3949AB,color:#000
+    style DP   fill:#F3E5F5,stroke:#7B1FA2,color:#000
+    style MOD  fill:#FFF3E0,stroke:#F57C00,color:#000
     style EVAL fill:#FFEBEE,stroke:#D32F2F,color:#000
-    style DEP fill:#E8F5E9,stroke:#388E3C,color:#000
+    style DEP  fill:#E8F5E9,stroke:#388E3C,color:#000
+    style ROW1 fill:none,stroke:none
+    style ROW2 fill:none,stroke:none
 ```
 
 | 반복 유형 | 발생 시점 | 목적 |
