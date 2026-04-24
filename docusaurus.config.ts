@@ -3,6 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
+  themes: ['@docusaurus/theme-mermaid'],
   title: '프레임워크적 사고',
   tagline: 'IT 전문가를 위한 구조적 IT 지식 체계',
   favicon: 'img/favicon.ico',
@@ -21,6 +22,7 @@ const config: Config = {
 
   onBrokenLinks: 'throw',
   markdown: {
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
@@ -143,6 +145,9 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    mermaid: {
+      theme: {light: 'neutral', dark: 'dark'},
     },
   } satisfies Preset.ThemeConfig,
 };
