@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 title: COBIT 2019
 ---
 
@@ -61,7 +61,7 @@ flowchart LR
     DF["설계 요인 분석<br/>Design Factors<br/>기업 전략 / 위험 프로필<br/>IT 역할 / 규모 (총 11개 요인)"]
     OPT["가이드라인 최적화<br/>Governance System Design<br/>목표 우선순위 도출<br/>프로세스 선택 및 조정"]
     FA["중점 영역 적용<br/>Focus Areas<br/>Cloud · Cybersecurity<br/>DevOps · 기타 특화 지침"]
-    CPM["성능 관리<br/>CPM<br/>역량 수준 측정<br/>0 ~ 5단계"]
+    CPM["성능 관리<br/>CPM<br/>역량 수준 측정<br/>0 - 5단계"]
 
     DF --> OPT --> FA --> CPM
 
@@ -97,7 +97,7 @@ flowchart LR
 | **0** | Incomplete | 프로세스 미실행 또는 목적 미달성 |
 | **1** | Performed | 목적을 달성하나 관리 체계 미흡 |
 | **2** | Managed | 계획·모니터링·조정이 이루어지는 관리 상태 |
-| **3** | Established | 표준 프로세스로 정의되어 조직 전반에 적용 |
+| **3** | Established | 프로세스로 정의되어 조직 전반에 적용 |
 | **4** | Predictable | 정량적 지표로 예측·통제 가능 |
 | **5** | Optimizing | 지속적 개선이 이루어지는 최적화 상태 |
 
@@ -106,14 +106,23 @@ flowchart LR
 #### 6대 원칙
 
 ```mermaid
-mindmap
-  root((COBIT 2019\n6대 원칙))
-    이해관계자 가치 실현
-    전사적 접근
-    동적 거버넌스 시스템
-    거버넌스와 관리의 분리
-    요구 조건 기반 맞춤화
-    종단 간 커버리지
+flowchart TD
+  ROOT["COBIT 2019 6대 원칙"]
+  P1["이해관계자 가치 실현"]
+  P2["전사적 접근"]
+  P3["동적 거버넌스 시스템"]
+  P4["거버넌스와 관리의 분리"]
+  P5["요구 조건 기반 맞춤화"]
+  P6["종단 간 커버리지"]
+
+  ROOT --> P1
+  ROOT --> P2
+  ROOT --> P3
+  ROOT --> P4
+  ROOT --> P5
+  ROOT --> P6
+
+  style ROOT fill:#1E3A5F,color:#fff
 ```
 
 ---
