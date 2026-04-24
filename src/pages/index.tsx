@@ -35,7 +35,7 @@ function WhySection() {
       <div className="container">
         <Heading as="h2">왜 프레임워크 중심의 사고인가?</Heading>
         <p>
-          기술사는 방대한 IT 기술 간의 <strong>상호 연결성(Connectivity)</strong>을 파악해야 합니다.
+          IT 전문가는 방대한 IT 기술 간의 <strong>상호 연결성(Connectivity)</strong>을 파악해야 합니다.
           프레임워크는 개별 기술들을 하나의 논리적 구조 안에 배치하여 다음과 같은 가치를 제공합니다.
         </p>
         <div className="row">
@@ -68,7 +68,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={siteConfig.title}
-      description="기술사를 위한 구조적 IT 지식 체계 - 프레임워크적 사고">
+      description="IT 전문가를 위한 구조적 IT 지식 체계 - 프레임워크적 사고">
       <HomepageHeader />
       <main>
         <WhySection />
