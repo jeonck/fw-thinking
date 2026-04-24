@@ -39,6 +39,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          sidebarCollapsible: false,
         },
         blog: false,
         theme: {
