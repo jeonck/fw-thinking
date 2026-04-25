@@ -44,17 +44,17 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  Root --> Valet[Valet 모델]
-  Valet --> Volume[Volume - 트래픽 양]
-  Valet --> Availability[Availability - 가용성]
-  Valet --> Latency[Latency - 지연 시간]
-  Valet --> Error[Error - 에러율]
-  Valet --> Ticket[Ticket - 티켓 수]
-  Root --> SRE[골든 시그널 - SRE]
-  SRE --> Latency[Latency]
-  SRE --> Traffic[Traffic]
-  SRE --> Errors[Errors]
-  SRE --> Saturation[Saturation - 포화도]
+  Root["서비스 지표 모델"] --> Valet["Valet 모델"]
+  Valet --> Volume["Volume - 트래픽 양"]
+  Valet --> Availability["Availability - 가용성"]
+  Valet --> Latency["Latency - 지연 시간"]
+  Valet --> Error["Error - 에러율"]
+  Valet --> Ticket["Ticket - 티켓 수"]
+  Root --> SRE["골든 시그널 - SRE"]
+  SRE --> LatencySRE["Latency"]
+  SRE --> TrafficSRE["Traffic"]
+  SRE --> ErrorsSRE["Errors"]
+  SRE --> Saturation["Saturation - 포화도"]
 ```
 
 | 지표 유형 | 주요 측정 항목 | 비고 |

@@ -49,14 +49,14 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  NISTCSFTiers --> Tier1Partial[Tier 1 - Partial - 부분적 -]
-  Tier1Partial --> Node12[비정형적, 개별적 리스크 대응]
-  NISTCSFTiers --> Tier2RiskInformed[Tier 2 - Risk Informed - 리스크 인지 -]
-  Tier2RiskInformed --> Node12[정책은 있으나 조직 전반 적용 미흡]
-  NISTCSFTiers --> Tier3Repeatable[Tier 3 - Repeatable - 반복 가능 -]
-  Tier3Repeatable --> Node12[공식적 정책 및 정기적 업데이트 수행]
-  NISTCSFTiers --> Tier4Adaptive[Tier 4 - Adaptive - 적응적 -]
-  Tier4Adaptive --> Node12[예측 기반의 능동적 리스크 관리]
+  NISTCSFTiers["NIST CSF 구현 단계 (Tiers)"] --> Tier1Partial["Tier 1 - Partial (부분적)"]
+  Tier1Partial --> Desc1["비정형적, 개별적 리스크 대응"]
+  NISTCSFTiers --> Tier2RiskInformed["Tier 2 - Risk Informed (리스크 인지)"]
+  Tier2RiskInformed --> Desc2["정책은 있으나 조직 전반 적용 미흡"]
+  NISTCSFTiers --> Tier3Repeatable["Tier 3 - Repeatable (반복 가능)"]
+  Tier3Repeatable --> Desc3["공식적 정책 및 정기적 업데이트 수행"]
+  NISTCSFTiers --> Tier4Adaptive["Tier 4 - Adaptive (적응적)"]
+  Tier4Adaptive --> Desc4["예측 기반의 능동적 리스크 관리"]
 ```
 
 | Tier | 수준 | 특징 |
