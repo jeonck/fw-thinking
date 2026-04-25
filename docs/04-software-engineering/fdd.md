@@ -32,15 +32,15 @@ flowchart LR
 
 ```mermaid
 flowchart LR
-    S1["1단계<br/>전체 모델 개발<br/>(Develop Overall<br/>Model)"]
-    S2["2단계<br/>기능 목록 작성<br/>(Build Feature<br/>List)"]
-    S3["3단계<br/>기능별 계획<br/>(Plan by<br/>Feature)"]
-    S4["4단계<br/>기능별 설계<br/>(Design by<br/>Feature)"]
-    S5["5단계<br/>기능별 구축<br/>(Build by<br/>Feature)"]
+    S1["1. 전체 모델 개발<br/>Develop Overall Model"]
+    S2["2. 기능 목록 작성<br/>Build Feature List"]
+    S3["3. 기능별 계획<br/>Plan by Feature"]
+    S4["4. 기능별 설계<br/>Design by Feature"]
+    S5["5. 기능별 구축<br/>Build by Feature"]
 
     S1 --> S2 --> S3
     S3 --> S4 --> S5
-    S5 -->|"다음 Feature<br/>반복"--> S4
+    S5 -->|"반복 수행"| S4
 
     style S1 fill:#E3F2FD,stroke:#1976D2,color:#000
     style S2 fill:#F3E5F5,stroke:#7B1FA2,color:#000
