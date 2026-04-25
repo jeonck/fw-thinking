@@ -46,20 +46,24 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  QuantumTech --> Node4[하드웨어 방식]
-  Node4 --> IBMGoogle[초전도 회로 (IBM, Google)]
-  Node4 --> IonQHoneywell[이온 트랩 (IonQ, Honeywell)]
-  Node4 --> Xanadu[광학 방식 (Xanadu)]
-  QuantumTech --> Node4[알고리즘]
-  Node4 --> Shor[Shor (소인수 분해 -> 암호 해독)]
-  Node4 --> Grover[Grover (데이터 검색 속도 향상)]
-  Node4 --> VQE[VQE (양자 화학 시뮬레이션)]
-  QuantumTech --> Node4[소프트웨어/프레임워크]
-  Node4 --> QiskitIBM[Qiskit (IBM)]
-  Node4 --> CirqGoogle[Cirq (Google)]
-  Node4 --> BraketAWS[Braket (AWS)]
-  QuantumTech --> Node0[```]
-```"
+    subgraph R1["　"]
+        direction LR
+        HW["하드웨어 방식<br/>초전도 회로 (IBM·Google)<br/>이온 트랩 (IonQ·Honeywell)<br/>광학 방식 (Xanadu)"]
+        AL["핵심 알고리즘<br/>Shor (소인수 분해)<br/>Grover (데이터 검색)<br/>VQE (양자 화학 시뮬)"]
+    end
+    subgraph R2["　"]
+        direction LR
+        SW["소프트웨어·프레임워크<br/>Qiskit (IBM)<br/>Cirq (Google)<br/>Braket (AWS)"]
+        ER["오류 정정<br/>Quantum Error Correction<br/>NISQ → 내결함성<br/>큐비트 정확도 향상"]
+    end
+
+    style HW fill:#E3F2FD,stroke:#1976D2,color:#000
+    style AL fill:#F3E5F5,stroke:#7B1FA2,color:#000
+    style SW fill:#E8F5E9,stroke:#388E3C,color:#000
+    style ER fill:#FFF3E0,stroke:#F57C00,color:#000
+    style R1 fill:none,stroke:none
+    style R2 fill:none,stroke:none
+```
 
 | 구분 | 주요 내용 | 비고 |
 |---|---|---|
