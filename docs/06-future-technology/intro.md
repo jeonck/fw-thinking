@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 미래 기술 대응 및 도메인 특화 개요
 ---
 

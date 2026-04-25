@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 경제성 분석 및 비즈니스 의사결정 개요
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 정보보호 및 보안 거버넌스 개요
 ---
 

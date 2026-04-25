@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 법규 및 컴플라이언스 대응 개요
 ---
 

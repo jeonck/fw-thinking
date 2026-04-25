@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: IT 거버넌스 및 전략 경영 개요
 ---
 

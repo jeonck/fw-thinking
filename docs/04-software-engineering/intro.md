@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 소프트웨어 공학 및 개발 방법론 개요
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 인프라, 운영 및 신기술 대응 개요
 ---
 

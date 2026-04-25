@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 엔터프라이즈 아키텍처 개요
 ---
 

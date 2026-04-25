@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 데이터 관리 및 AI 거버넌스 개요
 ---
 

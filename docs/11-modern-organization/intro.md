@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 0
 title: 현대적 조직 및 일하는 방식 개요
 ---
 
