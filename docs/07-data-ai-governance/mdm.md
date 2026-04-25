@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 title: MDM (마스터 데이터 관리)
 ---
 

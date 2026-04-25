@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 8
 title: V2X (자율주행 통신 체계)
 ---
 

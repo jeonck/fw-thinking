@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 title: 경제성 정당화 분석 (REI)
 ---
 

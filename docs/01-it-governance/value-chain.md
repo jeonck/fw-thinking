@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 4
 title: 포터의 가치 사슬
 ---
 

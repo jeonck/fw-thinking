@@ -1,5 +1,5 @@
 ---
-sidebar_position: 17
+sidebar_position: 7
 title: BSC 2.0
 ---
 

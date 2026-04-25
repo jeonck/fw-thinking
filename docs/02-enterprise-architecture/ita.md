@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 4
 title: ITA (정보기술 아키텍처)
 ---
 

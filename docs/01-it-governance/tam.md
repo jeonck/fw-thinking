@@ -1,5 +1,5 @@
 ---
-sidebar_position: 14
+sidebar_position: 18
 title: 기술 수용 모델 (TAM)
 ---
 

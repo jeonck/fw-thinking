@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 title: Brooks' Law (인력 추가 지연 법칙)
 ---
 

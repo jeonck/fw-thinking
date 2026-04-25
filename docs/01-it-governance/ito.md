@@ -1,5 +1,5 @@
 ---
-sidebar_position: 19
+sidebar_position: 20
 title: IT 아웃소싱 (ITO)
 ---
 

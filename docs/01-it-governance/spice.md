@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 13
 title: SPICE (ISO/IEC 15504)
 ---
 

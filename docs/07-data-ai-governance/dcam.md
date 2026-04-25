@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 title: DCAM (데이터 관리 성숙도 모델)
 ---
 

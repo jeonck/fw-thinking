@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 title: IAM (계정 및 권한 관리)
 ---
 

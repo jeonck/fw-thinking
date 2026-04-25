@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 9
 title: 데이터 품질 관리 (DQC)
 ---
 

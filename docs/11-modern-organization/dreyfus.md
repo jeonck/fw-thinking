@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 title: Dreyfus Model (기술 습득 단계)
 ---
 

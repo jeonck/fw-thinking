@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 19
 title: 디지털 전환 (DX)
 ---
 

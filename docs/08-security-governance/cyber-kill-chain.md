@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 7
 title: Cyber Kill Chain
 tags : ['활용(상)']
 ---

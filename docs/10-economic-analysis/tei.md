@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 title: TEI (총 경제적 영향 평가)
 ---
 

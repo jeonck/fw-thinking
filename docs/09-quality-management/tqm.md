@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 1
 title: TQM (전사적 품질 관리)
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 14
 title: Privacy by Design
 ---
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 title: Dunbar's Number (조직 규모 산정)
 ---
 

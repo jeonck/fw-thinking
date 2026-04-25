@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 16
 title: AI 거버넌스
 ---
 
