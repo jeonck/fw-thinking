@@ -41,16 +41,24 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  CloudGovernance --> FinOps[비용 최적화 (FinOps)]
-  FinOps --> Node6[사용량 기반 비용 관리 및 절감]
-  CloudGovernance --> Node4[보안 및 준거성]
-  Node4 --> SharedResponsibility[공동 책임 모델 (Shared Responsibility)]
-  CloudGovernance --> Node4[운영 자동화]
-  Node4 --> IaCCICD[IaC 및 CI/CD 파이프라인 통합]
-  CloudGovernance --> Node4[멀티/하이브리드 전략]
-  Node4 --> Lockin[벤더 종속 (Lock-in) 방지 및 가용성 확보]
-  CloudGovernance --> Node0[```]
-```"
+    subgraph R1["　"]
+        direction LR
+        G1["비용 최적화 (FinOps)<br/>사용량 기반 비용 관리<br/>예산 최적화·절감"]
+        G2["보안·준거성<br/>공동 책임 모델<br/>컴플라이언스 준수"]
+    end
+    subgraph R2["　"]
+        direction LR
+        G3["운영 자동화<br/>IaC·CI/CD 파이프라인<br/>자동화 기반 운영"]
+        G4["멀티·하이브리드 전략<br/>벤더 종속 방지<br/>가용성·유연성 확보"]
+    end
+
+    style G1 fill:#E3F2FD,stroke:#1976D2,color:#000
+    style G2 fill:#FFEBEE,stroke:#D32F2F,color:#000
+    style G3 fill:#E8F5E9,stroke:#388E3C,color:#000
+    style G4 fill:#FFF3E0,stroke:#F57C00,color:#000
+    style R1 fill:none,stroke:none
+    style R2 fill:none,stroke:none
+```
 
 | 서비스 모델 | 책임 범위 (관리 영역) | 비고 |
 |---|---|---|
