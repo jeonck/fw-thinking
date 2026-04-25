@@ -51,18 +51,18 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  EdgeTech --> Node4[가상화 및 컨테이너]
-  Node4 --> LightweightK8sK3s[Lightweight K8s (K3s)]
-  Node4 --> Docker[Docker 기반 마이크로서비스]
-  EdgeTech --> Node4[네트워크]
-  Node4 --> 5GMECMultiaccessEdgeComputing[5G MEC (Multi-access Edge Computing)]
-  Node4 --> SDNNFV[SDN / NFV]
-  EdgeTech --> Node4[데이터 관리]
-  Node4 --> FlinkSpark[스트림 데이터 처리 (Flink, Spark)]
-  Node4 --> Node6[분산 데이터베이스]
-  EdgeTech --> Node4[보안]
-  Node4 --> Node6[제로 트러스트 에지 보안]
-  Node4 --> FederatedLearning[연합 학습 (Federated Learning)]
+  EdgeTech["에지 컴퓨팅 기술"] --> Virt["가상화 및 컨테이너"]
+  Virt --> LightweightK8sK3s["Lightweight K8s (K3s)"]
+  Virt --> Docker["Docker 기반 마이크로서비스"]
+  EdgeTech --> Network["네트워크"]
+  Network --> 5GMECMultiaccessEdgeComputing["5G MEC (Multi-access Edge Computing)"]
+  Network --> SDNNFV["SDN / NFV"]
+  EdgeTech --> Data["데이터 관리"]
+  Data --> FlinkSpark["스트림 데이터 처리 (Flink, Spark)"]
+  Data --> DB["분산 데이터베이스"]
+  EdgeTech --> Sec["보안"]
+  Sec --> ZT["제로 트러스트 에지 보안"]
+  Sec --> FederatedLearning["연합 학습 (Federated Learning)"]
 ```
 
 | 기술 요소 | 상세 설명 | 비고 |

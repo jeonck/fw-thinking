@@ -52,14 +52,14 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  GenerativeAI --> NLP[텍스트 (NLP)]
-  NLP --> GPT4ClaudeGeminiLlama[GPT-4, Claude, Gemini, Llama]
-  GenerativeAI --> Vision[이미지 (Vision)]
-  Vision --> DALLEMidjourneyStableDiffusion[DALL-E, Midjourney, Stable Diffusion]
-  GenerativeAI --> Coding[코드 (Coding)]
-  Coding --> GitHubCopilotCursor[GitHub Copilot, Cursor]
-  GenerativeAI --> Multimodal[멀티모달 (Multi-modal)]
-  Multimodal --> Node6[텍스트-이미지-오디오 통합 이해 및 생성]
+  GenerativeAI["생성형 AI"] --> NLP["텍스트 (NLP)"]
+  NLP --> GPT4ClaudeGeminiLlama["GPT-4, Claude, Gemini, Llama"]
+  GenerativeAI --> Vision["이미지 (Vision)"]
+  Vision --> DALLEMidjourneyStableDiffusion["DALL-E, Midjourney, Stable Diffusion"]
+  GenerativeAI --> Coding["코드 (Coding)"]
+  Coding --> GitHubCopilotCursor["GitHub Copilot, Cursor"]
+  GenerativeAI --> Multimodal["멀티모달 (Multi-modal)"]
+  Multimodal --> Node6["텍스트-이미지-오디오 통합 이해 및 생성"]
 ```
 
 | 구분 | 주요 기술 모델 | 대표 서비스 |

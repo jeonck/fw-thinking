@@ -52,16 +52,16 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  SixSigmaBelts --> Champion[Champion]
-  Champion --> Node6[실행 후원 및 자원 배분]
-  SixSigmaBelts --> MasterBlackBelt[Master Black Belt]
-  MasterBlackBelt --> Node6[전략 수립 및 교육, 코칭]
-  SixSigmaBelts --> BlackBelt[Black Belt]
-  BlackBelt --> Node6[전임 혁신 리더, 프로젝트 주도]
-  SixSigmaBelts --> GreenBelt[Green Belt]
-  GreenBelt --> Node6[현업 병행, 소규모 프로젝트 수행]
-  SixSigmaBelts --> YellowWhiteBelt[Yellow/White Belt]
-  YellowWhiteBelt --> Node6[기본 개념 숙지 및 지원]
+  SixSigmaBelts["6시그마 추진 조직"] --> Champion["Champion"]
+  Champion --> Role1["실행 후원 및 자원 배분"]
+  SixSigmaBelts --> MasterBlackBelt["Master Black Belt"]
+  MasterBlackBelt --> Role2["전략 수립 및 교육, 코칭"]
+  SixSigmaBelts --> BlackBelt["Black Belt"]
+  BlackBelt --> Role3["전임 혁신 리더, 프로젝트 주도"]
+  SixSigmaBelts --> GreenBelt["Green Belt"]
+  GreenBelt --> Role4["현업 병행, 소규모 프로젝트 수행"]
+  SixSigmaBelts --> YellowWhiteBelt["Yellow/White Belt"]
+  YellowWhiteBelt --> Role5["기본 개념 숙지 및 지원"]
 ```
 
 ---

@@ -44,14 +44,14 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-  IT --> Node4[수익성 지표]
-  Node4 --> ROIReturnonInvestment[ROI (Return on Investment)]
-  Node4 --> NPVNetPresentValue[NPV (Net Present Value)]
-  Node4 --> IRRInternalRateofReturn[IRR (Internal Rate of Return)]
-  IT --> Node4[시간 지표]
-  Node4 --> PPPaybackPeriod[PP (Payback Period)]
-  IT --> Node4[비용 지표]
-  Node4 --> TCOTotalCostofOwnership[TCO (Total Cost of Ownership)]
+  IT["IT 투자 분석"] --> Profit["수익성 지표"]
+  Profit --> ROIReturnonInvestment["ROI (Return on Investment)"]
+  Profit --> NPVNetPresentValue["NPV (Net Present Value)"]
+  Profit --> IRRInternalRateofReturn["IRR (Internal Rate of Return)"]
+  IT --> Time["시간 지표"]
+  Time --> PPPaybackPeriod["PP (Payback Period)"]
+  IT --> Cost["비용 지표"]
+  Cost --> TCOTotalCostofOwnership["TCO (Total Cost of Ownership)"]
 ```
 
 | 지표 | 산식 / 의미 | 결정 기준 |
