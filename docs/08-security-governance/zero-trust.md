@@ -7,7 +7,10 @@ title: Zero Trust
 **Zero Trust Architecture (ZTA)**
 
 ## 1. 신뢰하지 말고 항상 검증하라, 제로 트러스트의 개요
-
+```mermaid
+flowchart LR
+    A["경계 중심 보안"] -- "절대 신뢰 금지 및 지속적 검증 전환" --> B["Zero Trust"]
+```
 **개념**: "절대 신뢰하지 말고, 언제나 검증하라(Never Trust, Always Verify)"는 원칙 아래, 네트워크 내외부를 불문하고 모든 접근 요청에 대해 최소 권한과 지속적 인증을 적용하는 보안 모델.
 
 **특징**: 경계 기반 보안(Perimeter Security)의 한계 극복, **최소 권한 원칙(Principle of Least Privilege)**, 사용자/기기/환경의 컨텍스트 기반 의사결정.

@@ -7,7 +7,10 @@ title: COBIT 2019
 **Control Objectives for Information and Related Technologies 2019**
 
 ## 1. 맞춤형 IT 거버넌스 설계를 위한 프레임워크, COBIT 2019의 개요
-
+```mermaid
+flowchart LR
+    A["획일적 IT 거버넌스"] -- "맞춤형 엔터프라이즈 거버넌스 전환" --> B["COBIT 2019"]
+```
 **개념**: 기업의 정보와 기술(I&T) 거버넌스 체계 구축을 위해 비즈니스 목적과 IT 관리를 정렬하는 EGIT(Enterprise Governance of IT) 프레임워크.
 
 **특징**: COBIT 5 기반에 **Design Factors(설계 요인)** 를 도입하여 조직 특성에 맞는 Tailoring(맞춤화)을 강화하고, CMMI 기반 성능 관리를 적용.

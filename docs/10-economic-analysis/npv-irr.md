@@ -7,7 +7,10 @@ title: NPV / IRR
 **Net Present Value & Internal Rate of Return**
 
 ## 1. 화폐의 시간 가치를 고려한 투자 분석, NPV와 IRR의 개요
-
+```mermaid
+flowchart LR
+    A["단순 합계 수익 분석"] -- "화폐의 시간 가치 반영 전환" --> B["NPV / IRR 분석"]
+```
 **개념**:
 - **NPV (순현재가치)**: 투자로 인해 발생하는 현금 유입의 현재 가치에서 현금 유출의 현재 가치를 뺀 값.
 - **IRR (내부수익률)**: 투자 프로젝트의 NPV를 0으로 만드는 할인율.

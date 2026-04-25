@@ -7,7 +7,10 @@ title: SLA / SLO / SLI
 **Service Level Management Metrics**
 
 ## 1. 정량적 서비스 수준 관리의 핵심, SLI/SLO/SLA의 개요
-
+```mermaid
+flowchart LR
+    A["모호한 서비스 품질"] -- "정량적 지표 기반 합의 전환" --> B["SLI/SLO/SLA 체계"]
+```
 **개념**: 서비스의 성능과 신뢰성을 객관적인 지표로 측정하고(SLI), 달성하고자 하는 목표치를 설정하며(SLO), 미달 시의 약속을 정의하는(SLA) 통합 관리 체계.
 
 **특징**: IT 서비스 제공자와 사용자 간의 기대치를 일치시키고, **에러 예산(Error Budget)** 활용을 통해 개발 속도와 안정성의 균형을 유지.

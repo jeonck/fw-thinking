@@ -7,7 +7,10 @@ title: ArchiMate
 **Enterprise Architecture Modeling Language**
 
 ## 1. 아키텍처 시각화의 국제 표준, ArchiMate의 개요
-
+```mermaid
+flowchart LR
+    A["비정형화된 모델링"] -- "표준화된 시각적 언어 전환" --> B["ArchiMate 모델링"]
+```
 **개념**: 전사 아키텍처(EA) 내의 비즈니스 프로세스, 조직 구조, 정보 흐름, IT 시스템 및 인프라 간의 관계를 시각적으로 표현하기 위한 개방형 모델링 언어.
 
 **특징**: TOGAF와 높은 호환성을 가지며, 계층(Layer) 간 수직적 연관성과 영역(Aspect) 간 수평적 관계를 정형화된 표기법으로 제공.

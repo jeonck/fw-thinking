@@ -7,7 +7,10 @@ title: Edge Computing
 **Edge Computing & MEC**
 
 ## 1. 데이터 처리의 전진 배치, 에지 컴퓨팅의 개요
-
+```mermaid
+flowchart LR
+    A["중앙 집중형 클라우드"] -- "실시간 분산 처리 전환" --> B["에지 컴퓨팅"]
+```
 **개념**: 데이터를 중앙 클라우드 서버로 보내지 않고, 데이터가 발생한 물리적 장소(에지) 또는 그 근처에서 실시간으로 처리하는 분산 컴퓨팅 기술.
 
 **특징**: **저지연(Low Latency)**, 대역폭 절감, 데이터 프라이버시 강화, 5G/6G 통신 기술과 결합된 MEC(Multi-access Edge Computing)로 진화.

@@ -7,7 +7,10 @@ title: Generative AI
 **Generative Artificial Intelligence & LLM**
 
 ## 1. 창작하고 소통하는 인공지능, 생성형 AI의 개요
-
+```mermaid
+flowchart LR
+    A["판별/분측 중심 AI"] -- "창의적 콘텐츠 생성 및 소통 전환" --> B["Generative AI"]
+```
 **개념**: 기존 데이터를 학습하여 단순히 분류하거나 예측하는 것을 넘어, 텍스트, 이미지, 오디오, 코드 등 새로운 콘텐츠를 스스로 생성해내는 인공지능 기술.
 
 **특징**: **대규모 언어 모델(LLM)** 중심의 발전, 프롬프트 엔지니어링의 부상, 멀티모달(Multi-modal) 역량 강화.

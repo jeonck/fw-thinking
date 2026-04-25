@@ -7,7 +7,10 @@ title: ROI / TCO
 **Return on Investment & Total Cost of Ownership**
 
 ## 1. IT 투자 효율성 분석의 핵심, ROI와 TCO의 개요
-
+```mermaid
+flowchart LR
+    A["단편적 비용 집행"] -- "정량적 가치 및 총비용 분석 전환" --> B["ROI / TCO 분석"]
+```
 **개념**:
 - **ROI**: 투자한 비용 대비 얻은 이익의 비율을 나타내는 수익성 지표.
 - **TCO**: 자산의 획득부터 폐기까지 발생하는 모든 직접/간접 비용의 총합.

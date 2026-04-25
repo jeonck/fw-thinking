@@ -7,7 +7,10 @@ title: Cloud Adoption Framework
 **Cloud Adoption & Migration Strategies**
 
 ## 1. 디지털 전환의 기반, 클라우드 도입 및 전환의 개요
-
+```mermaid
+flowchart LR
+    A["경직된 온프레미스 인프라"] -- "민첩하고 탄력적인 클라우드 전환" --> B["Cloud Adoption"]
+```
 **개념**: 조직의 IT 자산을 온프레미스(On-premise)에서 클라우드 환경으로 이전하거나, 신규 시스템을 클라우드 네이티브로 구축하기 위한 전략적 프레임워크.
 
 **특징**: 비용 절감보다는 **민첩성(Agility)** 과 **확장성(Scalability)** 확보 중심, 리쇼어링(Reshoring) 및 멀티/하이브리드 클라우드 전략 확산.

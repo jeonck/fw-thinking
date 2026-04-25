@@ -7,7 +7,10 @@ title: Microservices (MSA)
 **Microservices Architecture**
 
 ## 1. 민첩한 디지털 전환의 핵심, 마이크로서비스 아키텍처(MSA)의 개요
-
+```mermaid
+flowchart LR
+    A["거대 모놀리식 구조"] -- "독립 배포·느슨한 결합 전환" --> B["Microservices (MSA)"]
+```
 **개념**: 하나의 큰 애플리케이션을 독립적으로 배포 가능한 작은 서비스 단위들로 분해하고, 이들을 API를 통해 상호작용하도록 설계하는 소프트웨어 아키텍처 스타일.
 
 **특징**: **느슨한 결합(Loosely Coupled)**, 서비스별 독립적 기술 스택 사용, 폴리글랏(Polyglot) 구조 및 클라우드 네이티브 환경에 최적화.

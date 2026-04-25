@@ -7,7 +7,10 @@ title: Spotify Model
 **Spotify's Engineering Culture & Organization**
 
 ## 1. 자율성과 정렬의 균형, 스포티파이 모델의 개요
-
+```mermaid
+flowchart LR
+    A["고립된 애자일 팀"] -- "자율성과 전사 정렬의 조화 추구" --> B["Spotify Model"]
+```
 **개념**: 음원 스트리밍 서비스 Spotify에서 개발한 조직 구조로, 소규모 팀의 자율성(Autonomy)을 극대화하면서도 전사적 방향성(Alignment)을 유지하기 위한 목적 중심의 매트릭스 조직 모델.
 
 **특징**: **Squad, Tribe, Chapter, Guild**라는 독특한 조직 단위 정의, "Fail Fast, Learn Fast" 문화, 기술적 부채 관리 중시.
