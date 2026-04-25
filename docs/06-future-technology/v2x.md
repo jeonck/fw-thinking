@@ -68,7 +68,7 @@ flowchart TD
 |---|---|---|---|---|
 | **DSRC** | IEEE 802.11p | ~1km | ~2ms | 인프라 독립·즉각 반응, 구축 비용 높음 |
 | **C-V2X (LTE)** | 3GPP Release 14 | ~수km | ~20ms | 기존 LTE 인프라 활용, 커버리지 넓음 |
-| **C-V2X (5G NR)** | 3GPP Release 16+ | ~수km | <1ms | 초저지연·고신뢰, 자율주행 Level 4+ 대응 |
+| **C-V2X (5G NR)** | 3GPP Release 16+ | ~수km | 1ms 미만 | 초저지연·고신뢰, 자율주행 Level 4+ 대응 |
 | **하이브리드** | DSRC + C-V2X | 복합 | 상황별 | 직접 통신 + 네트워크 통신 병행 |
 
 ---
