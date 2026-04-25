@@ -48,16 +48,24 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  ServiceDesk --> SPOC[단일 접점 (SPOC)]
-  SPOC --> IT[사용자와 IT 부서 간 소통 창구]
-  ServiceDesk --> CX[고객 경험 (CX) 중시]
-  CX --> Node6[단순 기술 지원을 넘어 사용자 만족 제고]
-  ServiceDesk --> Node4[자동화 및 셀프 서비스]
-  Node4 --> Node6[챗봇, 지식 베이스를 통한 효율화]
-  ServiceDesk --> Node4[비즈니스 정렬]
-  Node4 --> Node6[비즈니스 임팩트 기반의 우선순위 처리]
-  ServiceDesk --> Node0[```]
-```"
+    subgraph R1["　"]
+        direction LR
+        D1["단일 접점 (SPOC)<br/>사용자-IT 부서 간<br/>소통 창구 단일화"]
+        D2["고객 경험 중시<br/>기술 지원을 넘어<br/>사용자 만족 제고"]
+    end
+    subgraph R2["　"]
+        direction LR
+        D3["자동화·셀프 서비스<br/>챗봇·지식 베이스로<br/>1차 해결률 향상"]
+        D4["비즈니스 정렬<br/>비즈니스 임팩트 기반<br/>우선순위 처리"]
+    end
+
+    style D1 fill:#E3F2FD,stroke:#1976D2,color:#000
+    style D2 fill:#F3E5F5,stroke:#7B1FA2,color:#000
+    style D3 fill:#FFF3E0,stroke:#F57C00,color:#000
+    style D4 fill:#E8F5E9,stroke:#388E3C,color:#000
+    style R1 fill:none,stroke:none
+    style R2 fill:none,stroke:none
+```
 
 | 구분 | 주요 역할 설명 | 비고 |
 |---|---|---|
