@@ -40,17 +40,24 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  SRE --> ErrorBudget[에러 예산 (Error Budget)]
-  ErrorBudget --> 100SLO[100% - SLO (허용 가능한 장애 범위)]
-  ErrorBudget --> Node6[예산 소진 시 배포 중단 및 안정성 강화]
-  SRE --> Toil[토일 (Toil) 최소화]
-  Toil --> 50[반복적이고 수동적인 업무의 자동화 (50% 룰)]
-  SRE --> Node4[분산 시스템 설계]
-  Node4 --> Selfhealing[장애 격리 및 자기 복구 (Self-healing) 역량]
-  SRE --> Postmortem[포스트모텀 (Post-mortem)]
-  Postmortem --> Blameless[비난 없는 (Blameless) 장애 분석 및 공유]
-  SRE --> Node0[```]
-```"
+    subgraph R1["　"]
+        direction LR
+        G1["에러 예산<br/>(Error Budget)<br/>100% - SLO<br/>허용 가능한 장애 범위"]
+        G2["토일 최소화<br/>(Toil)<br/>반복 수동 업무 자동화<br/>50% 룰 적용"]
+    end
+    subgraph R2["　"]
+        direction LR
+        G3["분산 시스템 설계<br/>장애 격리·자기 복구<br/>Self-healing 역량"]
+        G4["포스트모텀<br/>(Post-mortem)<br/>비난 없는 장애 분석<br/>재발 방지 공유"]
+    end
+
+    style G1 fill:#E3F2FD,stroke:#1976D2,color:#000
+    style G2 fill:#F3E5F5,stroke:#7B1FA2,color:#000
+    style G3 fill:#FFF3E0,stroke:#F57C00,color:#000
+    style G4 fill:#E8F5E9,stroke:#388E3C,color:#000
+    style R1 fill:none,stroke:none
+    style R2 fill:none,stroke:none
+```
 
 | 원칙 | 상세 설명 | 비고 |
 |---|---|---|

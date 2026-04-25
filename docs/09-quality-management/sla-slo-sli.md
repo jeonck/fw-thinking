@@ -55,8 +55,7 @@ flowchart TD
   SRE --> Traffic[Traffic]
   SRE --> Errors[Errors]
   SRE --> Saturation[Saturation - 포화도]
-  Root --> Node0[```]
-```"
+```
 
 | 지표 유형 | 주요 측정 항목 | 비고 |
 |---|---|---|

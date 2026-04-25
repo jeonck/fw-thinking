@@ -55,20 +55,24 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-  Blockchain --> Node4[합의 알고리즘]
-  Node4 --> PoW[PoW (작업 증명)]
-  Node4 --> PoS[PoS (지분 증명)]
-  Node4 --> BFT[BFT (비잔틴 장애 허용)]
-  Blockchain --> Node4[네트워크 유형]
-  Node4 --> Public[Public (누구나 참여)]
-  Node4 --> Private[Private (허가된 주체만)]
-  Node4 --> Consortium[Consortium (그룹 운영)]
-  Blockchain --> Node4[핵심 응용]
-  Node4 --> Solidity[스마트 계약 (Solidity)]
-  Node4 --> NFTSTO[NFT / STO (토큰 증권)]
-  Node4 --> DID[DID (분산 신원 증명)]
-  Blockchain --> Node0[```]
-```"
+    subgraph R1["　"]
+        direction LR
+        G1["합의 알고리즘<br/>PoW (작업 증명)<br/>PoS (지분 증명)<br/>BFT (비잔틴 장애 허용)"]
+        G2["네트워크 유형<br/>Public (누구나 참여)<br/>Private (허가된 주체)<br/>Consortium (그룹 운영)"]
+    end
+    subgraph R2["　"]
+        direction LR
+        G3["핵심 응용<br/>스마트 컨트랙트 (Solidity)<br/>NFT / STO (토큰 증권)<br/>DID (분산 신원 증명)"]
+        G4["소프트웨어 플랫폼<br/>이더리움 / 하이퍼레저<br/>Corda / Polygon<br/>Layer 2 솔루션"]
+    end
+
+    style G1 fill:#E3F2FD,stroke:#1976D2,color:#000
+    style G2 fill:#F3E5F5,stroke:#7B1FA2,color:#000
+    style G3 fill:#FFF3E0,stroke:#F57C00,color:#000
+    style G4 fill:#E8F5E9,stroke:#388E3C,color:#000
+    style R1 fill:none,stroke:none
+    style R2 fill:none,stroke:none
+```
 
 | 유형 | 참여 제한 | 속도 | 주요 사례 |
 |---|---|---|---|

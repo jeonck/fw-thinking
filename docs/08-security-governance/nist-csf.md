@@ -57,8 +57,7 @@ flowchart TD
   Tier3Repeatable --> Node12[공식적 정책 및 정기적 업데이트 수행]
   NISTCSFTiers --> Tier4Adaptive[Tier 4 - Adaptive - 적응적 -]
   Tier4Adaptive --> Node12[예측 기반의 능동적 리스크 관리]
-  NISTCSFTiers --> Node0[```]
-```"
+```
 
 | Tier | 수준 | 특징 |
 |---|---|---|

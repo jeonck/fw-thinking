@@ -60,8 +60,7 @@ flowchart TD
   Coding --> GitHubCopilotCursor[GitHub Copilot, Cursor]
   GenerativeAI --> Multimodal[멀티모달 (Multi-modal)]
   Multimodal --> Node6[텍스트-이미지-오디오 통합 이해 및 생성]
-  GenerativeAI --> Node0[```]
-```"
+```
 
 | 구분 | 주요 기술 모델 | 대표 서비스 |
 |---|---|---|

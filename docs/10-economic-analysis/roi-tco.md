@@ -52,8 +52,7 @@ flowchart TD
   Node4 --> PPPaybackPeriod[PP (Payback Period)]
   IT --> Node4[비용 지표]
   Node4 --> TCOTotalCostofOwnership[TCO (Total Cost of Ownership)]
-  IT --> Node0[```]
-```"
+```
 
 | 지표 | 산식 / 의미 | 결정 기준 |
 |---|---|---|

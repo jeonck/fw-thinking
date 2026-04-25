@@ -62,8 +62,7 @@ flowchart TD
   GreenBelt --> Node6[현업 병행, 소규모 프로젝트 수행]
   SixSigmaBelts --> YellowWhiteBelt[Yellow/White Belt]
   YellowWhiteBelt --> Node6[기본 개념 숙지 및 지원]
-  SixSigmaBelts --> Node0[```]
-```"
+```
 
 ---
 

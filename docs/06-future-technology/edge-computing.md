@@ -63,8 +63,7 @@ flowchart TD
   EdgeTech --> Node4[보안]
   Node4 --> Node6[제로 트러스트 에지 보안]
   Node4 --> FederatedLearning[연합 학습 (Federated Learning)]
-  EdgeTech --> Node0[```]
-```"
+```
 
 | 기술 요소 | 상세 설명 | 비고 |
 |---|---|---|
