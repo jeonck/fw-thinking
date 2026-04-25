@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 title: Cyber Kill Chain
+tags : ['활용(상)']
 ---
 
 # Cyber Kill Chain
