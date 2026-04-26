@@ -6,7 +6,7 @@ title: 경제성 정당화 분석 (REI)
 # 경제성 정당화 분석 (REI)
 **Return on IT Investment & Economic Justification Analysis**
 
-## 1. IT 투자의 비용과 편익을 체계적으로 산출하여 투자 타당성을 경제적으로 입증하는 분석 체계, 경제성 정당화 분석의 개요
+## 1. IT 투자 비용·편익 체계 산출로 경제성 타당성을 입증하는 분석, 경제성 정당화 분석의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: IT 시스템·서비스·프로젝트에 대한 투자 결정 시 **총 비용(Total Cost)** 과 **기대 편익(Expected Benefits)** 을 체계적으로 식별·정량화하여 투자의 경제적 타당성을 ROI·NPV·PP·IRR 등의 재무 지표로 입증하는 의사결정 지원 분석 체계.
+**정의**: IT 시스템·서비스·프로젝트에 대한 투자 결정 시 **총 비용(Total Cost)** 과 **기대 편익(Expected Benefits)** 을 체계적으로 식별·정량화하여 투자의 경제적 타당성을 ROI·NPV·PP·IRR 등의 재무 지표로 입증하는 의사결정 지원 분석 체계.
 
 **특징**:
 - **정량적 편익 산출** 이 핵심 — 업무 효율화·비용 절감·수익 증대를 금액으로 환산.

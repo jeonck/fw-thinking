@@ -11,7 +11,7 @@ title: OKR (Objectives and Key Results)
 flowchart LR
     A["하향식 목표 할당"] -- "투명한 목표 공유 및 상향식 조화 전환" --> B["OKR 체계"]
 ```
-**개념**: 조직의 목표(Objectives)와 그 목표 달성 여부를 측정할 수 있는 핵심 결과(Key Results)를 정의하여 성과를 관리하는 프레임워크.
+**정의**: 조직의 목표(Objectives)와 그 목표 달성 여부를 측정할 수 있는 핵심 결과(Key Results)를 정의하여 성과를 관리하는 프레임워크.
 
 **특징**: **도전적(Ambitious)** 목표 설정, 짧은 주기(분기)의 실행 및 검토, 하향식(Top-down)과 상향식(Bottom-up)의 조화, 투명한 목표 공유.
 

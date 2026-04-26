@@ -6,7 +6,7 @@ title: 4+1 View Model
 # 4+1 View Model
 **Philippe Kruchten의 소프트웨어 아키텍처 다중 관점 모델**
 
-## 1. 다양한 이해관계자의 관심사를 5가지 뷰로 분리하여 아키텍처를 체계적으로 표현하는 모델, 4+1 View Model의 개요
+## 1. 5가지 뷰로 이해관계자별 아키텍처 관심사를 분리하여 표현하는 모델, 4+1 View Model의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Philippe Kruchten이 제안한 소프트웨어 아키텍처 표현 프레임워크로, 복잡한 시스템을 **논리(Logical), 프로세스(Process), 물리(Physical), 개발(Development)** 의 4개 뷰와 이를 검증하는 **시나리오(Scenarios)** 뷰(+1)로 분리하여 이해관계자별 관심사를 체계적으로 전달하는 모델.
+**정의**: Philippe Kruchten이 제안한 소프트웨어 아키텍처 표현 프레임워크로, 복잡한 시스템을 **논리(Logical), 프로세스(Process), 물리(Physical), 개발(Development)** 의 4개 뷰와 이를 검증하는 **시나리오(Scenarios)** 뷰(+1)로 분리하여 이해관계자별 관심사를 체계적으로 전달하는 모델.
 
 **특징**:
 - 단일 아키텍처를 **여러 관점(View)** 으로 분리하여 각 이해관계자가 필요한 관점만 집중적으로 이해.

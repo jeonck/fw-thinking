@@ -6,7 +6,7 @@ title: SOC 2
 # SOC 2
 **Service Organization Control 2 — 서비스 조직 보안 신뢰성 감사 프레임워크**
 
-## 1. 서비스 조직의 보안·가용성·무결성·기밀성·프라이버시를 독립 감사로 검증하는 신뢰 보증 체계, SOC 2의 개요
+## 1. 5대 신뢰 기준을 독립 감사로 검증하는 서비스 조직 보안 보증 체계, SOC 2의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: 미국 공인회계사협회(AICPA)가 개발한 감사 표준으로, 서비스 조직(SaaS·클라우드·데이터 처리 기업)이 고객 데이터를 처리할 때 **보안(Security), 가용성(Availability), 처리 무결성(Processing Integrity), 기밀성(Confidentiality), 프라이버시(Privacy)** 의 5가지 신뢰 서비스 기준(TSC)을 얼마나 잘 준수하는지 독립된 감사인이 검증·보고하는 프레임워크.
+**정의**: 미국 공인회계사협회(AICPA)가 개발한 감사 표준으로, 서비스 조직(SaaS·클라우드·데이터 처리 기업)이 고객 데이터를 처리할 때 **보안(Security), 가용성(Availability), 처리 무결성(Processing Integrity), 기밀성(Confidentiality), 프라이버시(Privacy)** 의 5가지 신뢰 서비스 기준(TSC)을 얼마나 잘 준수하는지 독립된 감사인이 검증·보고하는 프레임워크.
 
 **특징**:
 - **자발적 인증**: 법적 의무는 없으나 B2B SaaS·클라우드 기업의 **고객사 요구 사항**으로 사실상 필수화.

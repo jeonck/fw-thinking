@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: SAS Institute가 제안한 데이터 마이닝 표준 프로세스로, 대용량 데이터에서 **Sample(표본 추출), Explore(탐색), Modify(수정), Model(모델링), Assess(평가)** 의 5단계를 순환 수행하여 예측 모델을 개발·검증하는 방법론.
+**정의**: SAS Institute가 제안한 데이터 마이닝 표준 프로세스로, 대용량 데이터에서 **Sample(표본 추출), Explore(탐색), Modify(수정), Model(모델링), Assess(평가)** 의 5단계를 순환 수행하여 예측 모델을 개발·검증하는 방법론.
 
 **특징**:
 - 데이터 처리 중심의 **기술적 절차**에 초점 — 비즈니스 이해 단계는 별도 선행 과정으로 분리.

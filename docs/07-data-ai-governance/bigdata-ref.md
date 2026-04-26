@@ -6,7 +6,7 @@ title: Big Data 5V
 # Big Data 5V
 **Volume · Velocity · Variety · Veracity · Value**
 
-## 1. 데이터의 5가지 핵심 속성을 기반으로 비즈니스 가치를 창출하는 빅데이터 프레임워크, Big Data 5V의 개요
+## 1. 빅데이터의 5대 속성(5V)으로 가치를 창출하는 분석 프레임워크, Big Data 5V의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: 빅데이터를 규모(Volume), 속도(Velocity), 다양성(Variety), 정확성(Veracity), 가치(Value)의 **5가지 속성**으로 정의하고, 각 속성의 특성에 맞게 수집·저장·처리·분석 아키텍처를 설계하여 데이터에서 비즈니스 가치를 창출하는 프레임워크.
+**정의**: 빅데이터를 규모(Volume), 속도(Velocity), 다양성(Variety), 정확성(Veracity), 가치(Value)의 **5가지 속성**으로 정의하고, 각 속성의 특성에 맞게 수집·저장·처리·분석 아키텍처를 설계하여 데이터에서 비즈니스 가치를 창출하는 프레임워크.
 
 **특징**:
 - 초기 3V(Volume·Velocity·Variety)에서 **Veracity(정확성)** 와 **Value(가치)** 를 추가한 5V 확장 모델.

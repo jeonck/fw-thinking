@@ -6,7 +6,7 @@ title: MITRE ATT&CK
 # MITRE ATT&CK
 **Adversarial Tactics, Techniques & Common Knowledge**
 
-## 1. 실제 공격자의 전술·기법·절차를 체계적으로 분류하여 방어 역량을 측정하고 개선하는 지식 프레임워크, MITRE ATT&CK의 개요
+## 1. 공격자 TTP를 체계 분류하여 방어 역량을 측정·개선하는 지식 베이스, MITRE ATT&CK의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: MITRE Corporation이 실제 사이버 공격 사례를 기반으로 공격자의 **전술(Tactics)·기법(Techniques)·절차(Procedures)** 를 체계적으로 분류한 공개 지식 베이스로, 방어자가 공격자 행동을 이해하고 탐지 규칙 매핑·방어 공백 식별·위협 인텔리전스 활용에 활용하는 글로벌 사이버 보안 표준 프레임워크.
+**정의**: MITRE Corporation이 실제 사이버 공격 사례를 기반으로 공격자의 **전술(Tactics)·기법(Techniques)·절차(Procedures)** 를 체계적으로 분류한 공개 지식 베이스로, 방어자가 공격자 행동을 이해하고 탐지 규칙 매핑·방어 공백 식별·위협 인텔리전스 활용에 활용하는 글로벌 사이버 보안 표준 프레임워크.
 
 **특징**:
 - **실증 기반**: 실제 APT 그룹의 공격 사례에서 추출한 130여 개 전술·기법 수록(Enterprise 기준).

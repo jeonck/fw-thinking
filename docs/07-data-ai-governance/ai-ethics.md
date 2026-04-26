@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: AI 시스템의 개발·운영 전 주기에서 인간의 존엄성과 기본권을 보호하고, 사회적 신뢰를 확보하기 위해 **신뢰성(Reliability), 투명성(Transparency), 공정성(Fairness)** 등의 윤리 원칙을 설계 단계부터 내재화하는 거버넌스 체계.
+**정의**: AI 시스템의 개발·운영 전 주기에서 인간의 존엄성과 기본권을 보호하고, 사회적 신뢰를 확보하기 위해 **신뢰성(Reliability), 투명성(Transparency), 공정성(Fairness)** 등의 윤리 원칙을 설계 단계부터 내재화하는 거버넌스 체계.
 
 **특징**:
 - EU AI Act, OECD AI 원칙, 국내 AI 윤리 기준 등 글로벌 규제 강화로 AI 윤리의 **법적 의무화** 가속.

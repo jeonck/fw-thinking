@@ -11,7 +11,7 @@ title: SRE (Site Reliability Engineering)
 flowchart LR
     A["수동적 시스템 운영"] -- "소프트웨어 엔지니어링 기반 운영 전환" --> B["SRE (Site Reliability Engineering)"]
 ```
-**개념**: 구글에서 창안한 개념으로, 소프트웨어 엔지니어링 방법론을 시스템 운영에 적용하여 대규모 서비스의 신뢰성을 극대화하는 실무 방법론.
+**정의**: 구글에서 창안한 개념으로, 소프트웨어 엔지니어링 방법론을 시스템 운영에 적용하여 대규모 서비스의 신뢰성을 극대화하는 실무 방법론.
 
 **특징**: **"Class SRE implements interface DevOps"** (SRE는 DevOps의 구현체), 에러 예산(Error Budget)을 통한 개발과 운영의 균형 추구.
 

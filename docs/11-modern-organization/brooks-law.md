@@ -6,7 +6,7 @@ title: Brooks' Law (인력 추가 지연 법칙)
 # Brooks' Law
 **"지연된 소프트웨어 프로젝트에 인력을 추가하면 더 늦어진다"**
 
-## 1. 지연된 SW 프로젝트에 인력을 추가할수록 오히려 더 늦어지는 역설적 현상을 설명하는 법칙, Brooks' Law의 개요
+## 1. 지연 프로젝트에 인력 추가가 오히려 완료를 늦추는 역설적 법칙, Brooks' Law의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#FFEBEE,stroke:#D32F2F,color:#000
 ```
 
-**개념**: Fred Brooks가 저서 "The Mythical Man-Month"(1975)에서 제시한 법칙으로, **"지연된 소프트웨어 프로젝트에 인력을 추가하면 프로젝트는 더 늦어진다(Adding manpower to a late software project makes it later)"** 는 역설적 현상을 설명하는 SW 프로젝트 관리의 핵심 원칙.
+**정의**: Fred Brooks가 저서 "The Mythical Man-Month"(1975)에서 제시한 법칙으로, **"지연된 소프트웨어 프로젝트에 인력을 추가하면 프로젝트는 더 늦어진다(Adding manpower to a late software project makes it later)"** 는 역설적 현상을 설명하는 SW 프로젝트 관리의 핵심 원칙.
 
 **특징**:
 - 소프트웨어 개발은 순수 병렬화가 어렵고, 인력 간 **커뮤니케이션 오버헤드** 가 인원 수의 제곱에 비례하여 증가.

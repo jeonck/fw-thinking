@@ -11,7 +11,7 @@ title: ITIL 4
 flowchart LR
     A["프로세스 중심 관리"] -- "비즈니스 가치 공동 창출 전환" --> B["ITIL 4 SVS"]
 ```
-**개념**: 현대적 비즈니스 환경에서 공동 가치 창출(Co-creation of Value)을 지원하기 위해 설계된 IT 서비스 관리(ITSM) 프레임워크.
+**정의**: 현대적 비즈니스 환경에서 공동 가치 창출(Co-creation of Value)을 지원하기 위해 설계된 IT 서비스 관리(ITSM) 프레임워크.
 
 **특징**: ITIL v3의 프로세스 중심에서 **서비스 가치 시스템(SVS)** 및 **4차원 모델**로 패러다임 전환, Agile, DevOps, Lean과의 통합 강조.
 

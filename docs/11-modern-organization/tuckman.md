@@ -6,7 +6,7 @@ title: Tuckman Stages (팀 발달 단계)
 # Tuckman Stages
 **팀 발달 단계 모델 — Forming · Storming · Norming · Performing · Adjourning**
 
-## 1. 팀이 구성부터 고성과 달성까지 거치는 4+1단계 발달 과정을 정의하여 리더십 개입을 최적화하는 모델, Tuckman Stages의 개요
+## 1. 팀 발달 4+1단계에 맞춰 리더십 개입 시점을 최적화하는 모델, Tuckman Stages의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Bruce Tuckman(1965)이 제안하고 후에 Mary Ann Jensen과 함께 Adjourning 단계를 추가한 팀 발달 모델로, 팀이 구성된 이후 **Forming(형성) → Storming(혼돈) → Norming(규범화) → Performing(성과)** 의 4단계를 거쳐 고성과에 도달하며, 프로젝트 완료 시 **Adjourning(해산)** 단계로 종료되는 팀 발달 과정을 설명.
+**정의**: Bruce Tuckman(1965)이 제안하고 후에 Mary Ann Jensen과 함께 Adjourning 단계를 추가한 팀 발달 모델로, 팀이 구성된 이후 **Forming(형성) → Storming(혼돈) → Norming(규범화) → Performing(성과)** 의 4단계를 거쳐 고성과에 도달하며, 프로젝트 완료 시 **Adjourning(해산)** 단계로 종료되는 팀 발달 과정을 설명.
 
 **특징**:
 - 모든 팀은 반드시 이 순서대로 단계를 거침 — **건너뛸 수 없으며 퇴행도 가능** (멤버 교체·목표 변경 시 Storming 재발).

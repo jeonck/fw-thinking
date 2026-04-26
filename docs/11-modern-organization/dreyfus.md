@@ -6,7 +6,7 @@ title: Dreyfus Model (기술 습득 단계)
 # Dreyfus Model
 **드레이퍼스 기술 습득 단계 모델 — 초보자에서 전문가까지의 인지 변화**
 
-## 1. 초보자에서 전문가로 성장하는 5단계 기술 습득 경로와 각 단계별 인지·행동 특성을 정의하는 모델, Dreyfus Model의 개요
+## 1. 초보에서 전문가까지 5단계 기술 습득 경로를 정의하는 성장 모델, Dreyfus Model의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Stuart Dreyfus와 Hubert Dreyfus 형제가 개발한 기술 습득 이론으로, 개인이 어떤 분야의 기술을 습득할 때 **Novice(초보자) → Advanced Beginner(초급자) → Competent(중급자) → Proficient(숙련자) → Expert(전문가)** 의 5단계를 거치며 규칙 의존적 사고에서 직관적 전문 판단으로 인지 방식이 변화하는 과정을 설명하는 모델.
+**정의**: Stuart Dreyfus와 Hubert Dreyfus 형제가 개발한 기술 습득 이론으로, 개인이 어떤 분야의 기술을 습득할 때 **Novice(초보자) → Advanced Beginner(초급자) → Competent(중급자) → Proficient(숙련자) → Expert(전문가)** 의 5단계를 거치며 규칙 의존적 사고에서 직관적 전문 판단으로 인지 방식이 변화하는 과정을 설명하는 모델.
 
 **특징**:
 - 각 단계는 **규칙 활용 방식·상황 인식·의사결정 방식** 의 질적 변화로 구분.

@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: McKinsey & Company에서 체계화한 구조적 사고 원칙으로, 어떤 문제·항목의 집합을 분류할 때 **ME(Mutually Exclusive, 상호 배타)** — 항목 간 중복이 없고, **CE(Collectively Exhaustive, 전체 포괄)** — 모든 가능성이 빠짐없이 포함되도록 구조화하는 논리적 사고 방법.
+**정의**: McKinsey & Company에서 체계화한 구조적 사고 원칙으로, 어떤 문제·항목의 집합을 분류할 때 **ME(Mutually Exclusive, 상호 배타)** — 항목 간 중복이 없고, **CE(Collectively Exhaustive, 전체 포괄)** — 모든 가능성이 빠짐없이 포함되도록 구조화하는 논리적 사고 방법.
 
 **특징**:
 - **ME(상호 배타)**: 각 항목이 서로 겹치지 않아 이중 계산·혼동이 없음.

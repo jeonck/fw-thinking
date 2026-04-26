@@ -11,7 +11,7 @@ title: DevOps
 flowchart LR
     A["개발/운영의 단절(Silo)"] -- "통합된 협업 및 자동화 전환" --> B["DevOps 문화"]
 ```
-**개념**: 소프트웨어 개발(Development)과 운영(Operations) 사이의 소통, 협업, 통합을 강조하여 품질 높고 빠른 배포를 가능케 하는 조직적 문화이자 방법론.
+**정의**: 소프트웨어 개발(Development)과 운영(Operations) 사이의 소통, 협업, 통합을 강조하여 품질 높고 빠른 배포를 가능케 하는 조직적 문화이자 방법론.
 
 **특징**: **CI/CD(지속적 통합/배포)** 자동화, 공유(Sharing), 측정(Measurement), 축적(Lean)을 핵심 가치(CAMS)로 삼음.
 

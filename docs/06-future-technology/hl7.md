@@ -6,7 +6,7 @@ title: HL7 / FHIR
 # HL7 / FHIR
 **Health Level 7 & Fast Healthcare Interoperability Resources**
 
-## 1. 이기종 의료 시스템 간 임상 데이터를 표준화하여 안전하게 교환하는 의료 정보 연계 표준, HL7·FHIR의 개요
+## 1. 의료 시스템 간 임상 데이터 안전 교환을 위한 의료 정보 연계 표준, HL7·FHIR의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: HL7(Health Level 7)은 의료 정보 교환의 국제 표준화 기구로, 가장 최신 표준인 **FHIR(Fast Healthcare Interoperability Resources)** 는 RESTful API 기반의 리소스(Resource) 단위 의료 데이터 교환 표준으로, 병원 정보 시스템 간 환자 정보·임상 데이터의 안전하고 일관된 공유를 가능케 하는 프레임워크.
+**정의**: HL7(Health Level 7)은 의료 정보 교환의 국제 표준화 기구로, 가장 최신 표준인 **FHIR(Fast Healthcare Interoperability Resources)** 는 RESTful API 기반의 리소스(Resource) 단위 의료 데이터 교환 표준으로, 병원 정보 시스템 간 환자 정보·임상 데이터의 안전하고 일관된 공유를 가능케 하는 프레임워크.
 
 **특징**:
 - **RESTful API 기반**: JSON·XML 형식으로 웹 표준 방식 의료 데이터 교환 — 기존 HL7 v2·v3 대비 구현 용이성 대폭 향상.

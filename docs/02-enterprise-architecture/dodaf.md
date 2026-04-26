@@ -6,7 +6,7 @@ title: DoDAF
 # DoDAF
 **Department of Defense Architecture Framework**
 
-## 1. 미 국방부의 복잡한 국방 시스템을 다중 관점으로 표현하는 아키텍처 프레임워크, DoDAF의 개요
+## 1. 복잡한 국방 시스템을 다중 관점으로 표현하는 미 국방부 EA 프레임워크, DoDAF의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: 미 국방부(DoD)가 복잡한 국방 시스템·사업·조직 간의 아키텍처를 **표준화된 뷰(View) 체계** 로 기술하여 상호운용성 확보, 시스템 획득 효율화, 의사결정 지원을 실현하는 엔터프라이즈 아키텍처 프레임워크.
+**정의**: 미 국방부(DoD)가 복잡한 국방 시스템·사업·조직 간의 아키텍처를 **표준화된 뷰(View) 체계** 로 기술하여 상호운용성 확보, 시스템 획득 효율화, 의사결정 지원을 실현하는 엔터프라이즈 아키텍처 프레임워크.
 
 **특징**:
 - **All View(AV), Operational View(OV), Systems View(SV), Technical View(TV)** 의 4대 뷰 체계(DoDAF 1.0 기준)에서 DoDAF 2.0에서 8개 뷰 계층으로 확장.

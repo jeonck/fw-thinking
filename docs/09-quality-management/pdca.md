@@ -6,7 +6,7 @@ title: PDCA (개선 사이클)
 # PDCA
 **Plan-Do-Check-Act — 지속적 개선의 보편적 순환 사이클**
 
-## 1. 계획-실행-확인-조치의 4단계 순환으로 프로세스·품질·성과를 지속적으로 개선하는 경영 방법론, PDCA의 개요
+## 1. 계획-실행-확인-조치 4단계 순환으로 지속적 개선을 실현하는 방법론, PDCA의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Walter Shewhart가 고안하고 W. Edwards Deming이 보급한 품질 관리 방법론으로, **Plan(계획)→Do(실행)→Check(확인)→Act(조치)** 의 4단계를 반복 순환함으로써 프로세스·제품·서비스의 품질을 지속적으로 개선하는 보편적 개선 사이클.
+**정의**: Walter Shewhart가 고안하고 W. Edwards Deming이 보급한 품질 관리 방법론으로, **Plan(계획)→Do(실행)→Check(확인)→Act(조치)** 의 4단계를 반복 순환함으로써 프로세스·제품·서비스의 품질을 지속적으로 개선하는 보편적 개선 사이클.
 
 **특징**:
 - **반복적 나선형 개선**: 한 사이클 완료 후 더 높은 수준에서 다시 시작 — 끊임없는 향상(Kaizen).

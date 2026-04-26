@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Robert C. Martin이 제안한 아키텍처로, **"소스 코드의 의존성은 반드시 안쪽(정책)을 향해야 한다"** 는 의존성 규칙(Dependency Rule)을 핵심 원칙으로, 비즈니스 규칙을 프레임워크·DB·UI 등 외부 세부사항으로부터 격리하는 동심원(Concentric Circles) 계층 구조 아키텍처.
+**정의**: Robert C. Martin이 제안한 아키텍처로, **"소스 코드의 의존성은 반드시 안쪽(정책)을 향해야 한다"** 는 의존성 규칙(Dependency Rule)을 핵심 원칙으로, 비즈니스 규칙을 프레임워크·DB·UI 등 외부 세부사항으로부터 격리하는 동심원(Concentric Circles) 계층 구조 아키텍처.
 
 **특징**:
 - **프레임워크 독립**: 특정 프레임워크에 의존하지 않아 Spring→FastAPI 교체 시 비즈니스 로직 불변.

@@ -6,7 +6,7 @@ title: 심리적 안전감 (Psychological Safety)
 # Psychological Safety
 **심리적 안전감 — 고성과 팀을 만드는 핵심 조건**
 
-## 1. 팀원이 대인 관계 위험 없이 자유롭게 발언·실험·실수할 수 있다고 믿는 공유 신념, 심리적 안전감의 개요
+## 1. 대인 위험 없이 자유롭게 발언·실험할 수 있다는 팀의 공유 신념, 심리적 안전감의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Amy Edmondson(하버드 경영대학원) 교수가 제시한 개념으로, 팀 내에서 **대인 관계 위험(Interpersonal Risk) 없이** 질문·아이디어 제안·우려 표명·실수 인정을 할 수 있다고 팀원들이 공유하는 신념. Google의 Project Aristotle 연구에서 고성과 팀의 가장 중요한 단일 요인으로 확인됨.
+**정의**: Amy Edmondson(하버드 경영대학원) 교수가 제시한 개념으로, 팀 내에서 **대인 관계 위험(Interpersonal Risk) 없이** 질문·아이디어 제안·우려 표명·실수 인정을 할 수 있다고 팀원들이 공유하는 신념. Google의 Project Aristotle 연구에서 고성과 팀의 가장 중요한 단일 요인으로 확인됨.
 
 **특징**:
 - 심리적 안전감은 **안락함(Comfort)** 이 아님 — 낮은 기준·낮은 책임이 아닌 **높은 기준 속 안전한 환경** 이 목표.

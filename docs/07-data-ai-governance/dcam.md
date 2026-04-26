@@ -6,7 +6,7 @@ title: DCAM (데이터 관리 성숙도 모델)
 # DCAM
 **Data Management Capability Assessment Model — 데이터 관리 역량 평가 모델**
 
-## 1. 조직의 데이터 관리 역량을 8대 영역으로 진단하고 성숙도 기반 개선 로드맵을 제시하는 글로벌 표준, DCAM의 개요
+## 1. 데이터 관리 역량을 8대 영역으로 측정하는 성숙도 진단 표준, DCAM의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: EDM Council(Enterprise Data Management Council)이 개발한 데이터 관리 역량 평가 프레임워크로, 조직의 데이터 관리 프로그램을 **8대 역량 영역(Capability Domain)** 과 37개 역량 구성 요소로 체계화하여 현재 수준을 측정·비교하고 목표 성숙도 달성을 위한 로드맵을 제시하는 데이터 거버넌스 표준 모델.
+**정의**: EDM Council(Enterprise Data Management Council)이 개발한 데이터 관리 역량 평가 프레임워크로, 조직의 데이터 관리 프로그램을 **8대 역량 영역(Capability Domain)** 과 37개 역량 구성 요소로 체계화하여 현재 수준을 측정·비교하고 목표 성숙도 달성을 위한 로드맵을 제시하는 데이터 거버넌스 표준 모델.
 
 **특징**:
 - **업계 벤치마킹**: 금융·보험·에너지 등 주요 산업의 데이터 관리 성숙도를 동일 기준으로 비교 가능.

@@ -6,7 +6,7 @@ title: TEI (총 경제적 영향 평가)
 # TEI
 **Total Economic Impact — 총 경제적 영향 평가**
 
-## 1. 편익·비용·유연성·리스크 4가지 요소로 IT 투자의 총체적 경제 가치를 측정하는 Forrester 방법론, TEI의 개요
+## 1. 편익·유연성·리스크를 통합한 IT 투자 가치 측정 방법론, TEI의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Forrester Research가 개발한 IT 투자 가치 측정 프레임워크로, 기존 ROI 분석이 놓치기 쉬운 **유연성(Flexibility)** 과 **리스크(Risk)** 요소를 포함하여 **편익(Benefits), 비용(Costs), 유연성(Flexibility), 리스크(Risk)** 의 4가지 요소로 IT 투자의 총체적 경제적 영향을 측정하고 투자 타당성을 종합적으로 평가하는 방법론.
+**정의**: Forrester Research가 개발한 IT 투자 가치 측정 프레임워크로, 기존 ROI 분석이 놓치기 쉬운 **유연성(Flexibility)** 과 **리스크(Risk)** 요소를 포함하여 **편익(Benefits), 비용(Costs), 유연성(Flexibility), 리스크(Risk)** 의 4가지 요소로 IT 투자의 총체적 경제적 영향을 측정하고 투자 타당성을 종합적으로 평가하는 방법론.
 
 **특징**:
 - **인터뷰 기반 실증 분석**: 고객·사용자·관리자 심층 인터뷰로 정성적 편익을 정량화.

@@ -11,7 +11,7 @@ title: Quantum Computing
 flowchart LR
     A["이진 비트(Bit) 연산"] -- "중첩 및 얽힘 기반 큐비트 전환" --> B["양자 컴퓨팅"]
 ```
-**개념**: 기존 비트(0 또는 1) 대신 양자 역학적 현상인 **중첩(Superposition)** 과 **얽힘(Entanglement)** 을 이용하는 큐비트(Qubit)를 사용하여 연산 속도를 기하급수적으로 높이는 기술.
+**정의**: 기존 비트(0 또는 1) 대신 양자 역학적 현상인 **중첩(Superposition)** 과 **얽힘(Entanglement)** 을 이용하는 큐비트(Qubit)를 사용하여 연산 속도를 기하급수적으로 높이는 기술.
 
 **특징**: 양자 우위(Quantum Supremacy) 달성 목표, 특정 알고리즘(Shor, Grover)에서 기존 슈퍼컴퓨터를 압도하는 성능 발휘.
 

@@ -6,7 +6,7 @@ title: SOA (Service-Oriented Architecture)
 # SOA
 **Service-Oriented Architecture — 서비스 지향 아키텍처**
 
-## 1. 비즈니스 기능을 재사용 가능한 서비스 단위로 분리하고 표준 인터페이스로 연결하는 아키텍처, SOA의 개요
+## 1. 비즈니스 기능을 표준 서비스로 분리·재사용하는 엔터프라이즈 아키텍처, SOA의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: 비즈니스 기능을 독립적으로 배포 가능하고 표준 인터페이스를 통해 호출 가능한 **서비스(Service)** 단위로 분리하고, ESB(Enterprise Service Bus)를 통해 이들을 느슨하게 결합하여 기업 전체의 IT 자산을 공유·재사용하는 엔터프라이즈 아키텍처 패러다임.
+**정의**: 비즈니스 기능을 독립적으로 배포 가능하고 표준 인터페이스를 통해 호출 가능한 **서비스(Service)** 단위로 분리하고, ESB(Enterprise Service Bus)를 통해 이들을 느슨하게 결합하여 기업 전체의 IT 자산을 공유·재사용하는 엔터프라이즈 아키텍처 패러다임.
 
 **특징**:
 - **서비스 계약(Service Contract)**: WSDL·OpenAPI 등 표준 인터페이스로 서비스 간 통신 규약 정의.

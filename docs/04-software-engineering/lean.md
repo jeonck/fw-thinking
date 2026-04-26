@@ -6,7 +6,7 @@ title: Lean Software Development
 # Lean Software Development
 **린 소프트웨어 개발 — 낭비 제거와 가치 흐름 최적화**
 
-## 1. 도요타 생산 방식을 소프트웨어 개발에 적용한 낭비 제거 중심의 개발 철학, Lean SW Development의 개요
+## 1. 도요타 TPS의 낭비 제거 철학을 SW 개발에 적용한 가치 흐름 방법론, Lean SW Development의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Mary·Tom Poppendieck이 도요타 생산 방식(TPS)의 린(Lean) 철학을 소프트웨어 개발에 적용한 방법론으로, **낭비(Waste) 제거와 가치 흐름(Value Stream) 최적화**를 통해 고객에게 빠르게 가치를 전달하는 7대 원칙 기반 개발 철학.
+**정의**: Mary·Tom Poppendieck이 도요타 생산 방식(TPS)의 린(Lean) 철학을 소프트웨어 개발에 적용한 방법론으로, **낭비(Waste) 제거와 가치 흐름(Value Stream) 최적화**를 통해 고객에게 빠르게 가치를 전달하는 7대 원칙 기반 개발 철학.
 
 **특징**:
 - 린 제조의 **무다(Muda·낭비), 무라(Mura·불균형), 무리(Muri·과부하)** 개념을 SW 개발에 적용.

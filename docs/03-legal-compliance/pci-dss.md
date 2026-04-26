@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Visa·Mastercard·AmEx 등 카드 브랜드가 공동 설립한 PCI SSC(Payment Card Industry Security Standards Council)가 제정한 국제 보안 표준으로, 카드 소지자 데이터(CHD: Cardholder Data)를 처리·저장·전송하는 모든 조직이 준수해야 하는 **6대 목표·12개 보안 요건** 체계.
+**정의**: Visa·Mastercard·AmEx 등 카드 브랜드가 공동 설립한 PCI SSC(Payment Card Industry Security Standards Council)가 제정한 국제 보안 표준으로, 카드 소지자 데이터(CHD: Cardholder Data)를 처리·저장·전송하는 모든 조직이 준수해야 하는 **6대 목표·12개 보안 요건** 체계.
 
 **특징**:
 - 법정 의무가 아닌 **계약 의무** — 미준수 시 카드 브랜드와의 계약 해지·과징금 부과.

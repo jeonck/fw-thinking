@@ -6,7 +6,7 @@ title: Design Patterns (GoF)
 # Design Patterns (GoF)
 **Gang of Four 소프트웨어 디자인 패턴**
 
-## 1. 반복되는 설계 문제에 대한 검증된 재사용 가능한 해결책 체계, GoF 디자인 패턴의 개요
+## 1. 반복 설계 문제에 대한 검증된 재사용 가능한 해결책 체계, GoF 디자인 패턴의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Erich Gamma 외 4인(Gang of Four)이 정리한 **23가지 소프트웨어 디자인 패턴**으로, 객체지향 설계에서 반복적으로 발생하는 문제에 대한 검증된 해결책을 생성(Creational), 구조(Structural), 행위(Behavioral) 패턴으로 분류한 설계 지식 체계.
+**정의**: Erich Gamma 외 4인(Gang of Four)이 정리한 **23가지 소프트웨어 디자인 패턴**으로, 객체지향 설계에서 반복적으로 발생하는 문제에 대한 검증된 해결책을 생성(Creational), 구조(Structural), 행위(Behavioral) 패턴으로 분류한 설계 지식 체계.
 
 **특징**:
 - 특정 언어·기술에 종속되지 않는 **설계 수준의 재사용 가능한 솔루션**.

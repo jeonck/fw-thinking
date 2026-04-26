@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: DAMA International에서 발간한 데이터 관리 지식 체계로, 조직이 데이터 자산을 효과적으로 관리하기 위한 **11대 지식 영역(Knowledge Areas)** 과 실무 가이드라인을 제공하는 글로벌 표준 프레임워크.
+**정의**: DAMA International에서 발간한 데이터 관리 지식 체계로, 조직이 데이터 자산을 효과적으로 관리하기 위한 **11대 지식 영역(Knowledge Areas)** 과 실무 가이드라인을 제공하는 글로벌 표준 프레임워크.
 
 **특징**:
 - 데이터 거버넌스를 중심축으로 10개 관리 영역이 유기적으로 연결된 **DAMA Wheel** 구조 제시.

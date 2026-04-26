@@ -11,7 +11,7 @@ title: Blockchain
 flowchart LR
     A["중앙 집중형 신뢰"] -- "탈중앙화 및 분산 원장 전환" --> B["블록체인 기술"]
 ```
-**개념**: 거래 정보를 중앙 서버가 아닌 네트워크 참여자들이 공동으로 기록하고 관리하는 **분산 원장 기술(Distributed Ledger Technology)**.
+**정의**: 거래 정보를 중앙 서버가 아닌 네트워크 참여자들이 공동으로 기록하고 관리하는 **분산 원장 기술(Distributed Ledger Technology)**.
 
 **특징**: **탈중앙화(Decentralization)**, 투명성, 불변성(Immutability), 가용성 확보, 스마트 계약(Smart Contract)을 통한 비즈니스 자동화.
 

@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: 기업이 보유한 자원과 역량이 경쟁 우위의 원천이 될 수 있는지를 가치(Value), 희소성(Rarity), 모방 곤란성(Imitability), 조직(Organization)의 네 가지 기준으로 평가하는 **자원 기반 관점(RBV: Resource-Based View)** 의 전략 분석 프레임워크.
+**정의**: 기업이 보유한 자원과 역량이 경쟁 우위의 원천이 될 수 있는지를 가치(Value), 희소성(Rarity), 모방 곤란성(Imitability), 조직(Organization)의 네 가지 기준으로 평가하는 **자원 기반 관점(RBV: Resource-Based View)** 의 전략 분석 프레임워크.
 
 **특징**:
 - 외부 환경 분석(Porter's 5 Forces) 중심의 산업 구조 분석을 보완하는 내부 자원 중심의 접근법.

@@ -6,7 +6,7 @@ title: FEAF
 # FEAF
 **Federal Enterprise Architecture Framework**
 
-## 1. 미국 연방정부의 IT 투자를 전략과 정렬하고 부처 간 공유·재사용을 실현하는 EA 프레임워크, FEAF의 개요
+## 1. 미 연방정부 IT 투자를 전략 정렬하고 부처 간 재사용을 실현하는 EA, FEAF의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: 미국 연방정부가 부처 간 IT 투자의 중복을 방지하고 비즈니스 목표와 IT를 정렬하기 위해 수립한 EA 프레임워크로, **성과·비즈니스·서비스 컴포넌트·데이터·기술** 의 5대 참조 모델(Reference Model)을 통해 정부 전체의 아키텍처를 표준화하는 체계.
+**정의**: 미국 연방정부가 부처 간 IT 투자의 중복을 방지하고 비즈니스 목표와 IT를 정렬하기 위해 수립한 EA 프레임워크로, **성과·비즈니스·서비스 컴포넌트·데이터·기술** 의 5대 참조 모델(Reference Model)을 통해 정부 전체의 아키텍처를 표준화하는 체계.
 
 **특징**:
 - **공유 서비스(Shared Services)** 와 **재사용 가능한 컴포넌트** 식별을 통한 연방 IT 투자 최적화.

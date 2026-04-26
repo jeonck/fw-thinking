@@ -6,7 +6,7 @@ title: Serverless Architecture
 # Serverless Architecture
 **서버리스 아키텍처 — 인프라 관리 없이 코드에만 집중하는 클라우드 네이티브 패턴**
 
-## 1. 서버 프로비저닝·운영 없이 이벤트에 반응하는 함수 단위로 비즈니스 로직을 실행하는 아키텍처, Serverless의 개요
+## 1. 서버 없이 이벤트·함수 단위로 비즈니스 로직을 실행하는 아키텍처, Serverless의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: 개발자가 서버 인프라를 직접 관리하지 않고, 클라우드 제공자가 실행 환경을 완전히 관리하는 아키텍처로, **FaaS(Function as a Service)** 와 **BaaS(Backend as a Service)** 를 결합하여 이벤트에 반응하는 함수 단위로 비즈니스 로직을 구현하는 클라우드 네이티브 패턴.
+**정의**: 개발자가 서버 인프라를 직접 관리하지 않고, 클라우드 제공자가 실행 환경을 완전히 관리하는 아키텍처로, **FaaS(Function as a Service)** 와 **BaaS(Backend as a Service)** 를 결합하여 이벤트에 반응하는 함수 단위로 비즈니스 로직을 구현하는 클라우드 네이티브 패턴.
 
 **특징**:
 - **종량제 과금(Pay-per-use)**: 함수 실행 시간·횟수에 따라 과금 — 유휴 시간 비용 없음.

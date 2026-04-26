@@ -11,7 +11,7 @@ title: TOGAF
 flowchart LR
     A["정적인 아키텍처 설계"] -- "순환형 개발 프로세스 전환" --> B["TOGAF 프레임워크"]
 ```
-**개념**: The Open Group에서 개발한 전사 아키텍처(EA) 설계를 위한 표준 프레임워크이자 상세 방법론.
+**정의**: The Open Group에서 개발한 전사 아키텍처(EA) 설계를 위한 표준 프레임워크이자 상세 방법론.
 
 **특징**: **ADM(Architecture Development Method)** 이라는 강력한 순환형 프로세스를 핵심으로 하며, 아키텍처 콘텐츠 프레임워크와 참조 모델을 함께 제공.
 

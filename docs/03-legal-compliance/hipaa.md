@@ -12,7 +12,7 @@ title: HIPAA (Health Insurance Portability and Accountability Act)
 flowchart LR
     A["수기/분산된 의료 정보"] -- "표준화 및 보안 강화" --> B["HIPAA (보호된 의료 정보)"]
 ```
-**개념**: 미국에서 환자의 건강 정보를 보호하기 위해 제정된 연방 법률로, 개인건강정보(PHI: Protected Health Information)의 프라이버시와 보안에 대한 전국적인 표준을 설정합니다.
+**정의**: 미국에서 환자의 건강 정보를 보호하기 위해 제정된 연방 법률로, 개인건강정보(PHI: Protected Health Information)의 프라이버시와 보안에 대한 전국적인 표준을 설정합니다.
 
 **특징**: 의료 서비스 제공자, 건강 보험사, 기타 관련 사업자에게 PHI의 보호 의무를 부여하며, 데이터의 안전한 전송 및 공유를 위한 표준을 제시합니다.
 

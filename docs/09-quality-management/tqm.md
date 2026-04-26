@@ -6,7 +6,7 @@ title: TQM (전사적 품질 관리)
 # TQM
 **Total Quality Management — 전사적 품질 관리**
 
-## 1. 고객 만족을 목표로 조직 전 구성원이 참여하여 프로세스·제품·서비스의 품질을 지속적으로 개선하는 경영 철학, TQM의 개요
+## 1. 전원 참여로 프로세스·제품 품질을 지속 개선하는 경영 철학, TQM의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: W. Edwards Deming·Joseph Juran·Kaoru Ishikawa 등의 품질 사상을 기반으로 발전한 경영 철학으로, **고객 만족**을 궁극적 목표로 하여 조직의 전 구성원이 모든 프로세스·제품·서비스의 품질 개선에 참여하고, 데이터 기반의 지속적 개선(Continuous Improvement)을 추구하는 전사적 경영 방식.
+**정의**: W. Edwards Deming·Joseph Juran·Kaoru Ishikawa 등의 품질 사상을 기반으로 발전한 경영 철학으로, **고객 만족**을 궁극적 목표로 하여 조직의 전 구성원이 모든 프로세스·제품·서비스의 품질 개선에 참여하고, 데이터 기반의 지속적 개선(Continuous Improvement)을 추구하는 전사적 경영 방식.
 
 **특징**:
 - **전원 참여(Total Involvement)**: 최고 경영자부터 현장 작업자까지 품질에 대한 책임과 참여.

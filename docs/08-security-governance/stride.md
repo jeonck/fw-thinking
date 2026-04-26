@@ -6,7 +6,7 @@ title: STRIDE
 # STRIDE
 **보안 위협 모델링 프레임워크**
 
-## 1. 설계 단계에서 6가지 위협 유형을 체계적으로 식별하여 보안을 내재화하는 위협 모델링 기법, STRIDE의 개요
+## 1. 설계 단계 6대 위협 식별로 보안을 내재화하는 위협 모델링 기법, STRIDE의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Microsoft가 개발한 위협 모델링 프레임워크로, 소프트웨어 시스템에서 발생 가능한 보안 위협을 **Spoofing(신원 위장), Tampering(변조), Repudiation(부인), Information Disclosure(정보 노출), Denial of Service(서비스 거부), Elevation of Privilege(권한 상승)** 의 6가지 유형으로 분류하여 설계 단계부터 체계적으로 식별·완화하는 위협 모델링 기법.
+**정의**: Microsoft가 개발한 위협 모델링 프레임워크로, 소프트웨어 시스템에서 발생 가능한 보안 위협을 **Spoofing(신원 위장), Tampering(변조), Repudiation(부인), Information Disclosure(정보 노출), Denial of Service(서비스 거부), Elevation of Privilege(권한 상승)** 의 6가지 유형으로 분류하여 설계 단계부터 체계적으로 식별·완화하는 위협 모델링 기법.
 
 **특징**:
 - **Shift-Left 보안**: 개발 후 취약점을 수정하는 것보다 설계 단계 위협 식별이 비용 효율적.

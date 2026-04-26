@@ -6,7 +6,7 @@ title: Hexagonal Architecture
 # Hexagonal Architecture
 **Ports and Adapters Pattern — 포트와 어댑터 아키텍처**
 
-## 1. 비즈니스 로직을 외부 기술로부터 완전히 격리하여 어느 방향에서도 동등하게 연결하는 아키텍처, Hexagonal Architecture의 개요
+## 1. 포트·어댑터로 비즈니스 로직을 외부 기술에서 완전히 격리하는 아키텍처, Hexagonal Architecture의 개요
 
 ```mermaid
 flowchart LR
@@ -17,7 +17,7 @@ flowchart LR
     style C fill:#E8F5E9,stroke:#388E3C,color:#000
 ```
 
-**개념**: Alistair Cockburn이 제안한 아키텍처 패턴으로, 애플리케이션의 핵심 **비즈니스 로직(도메인 코어)** 을 육각형(Hexagon)의 중심에 배치하고, 외부 시스템(UI·DB·외부 API)과의 통신을 **포트(Port, 인터페이스)** 와 **어댑터(Adapter, 구현체)** 를 통해 연결하여 비즈니스 로직이 외부 기술에 전혀 의존하지 않도록 설계하는 아키텍처.
+**정의**: Alistair Cockburn이 제안한 아키텍처 패턴으로, 애플리케이션의 핵심 **비즈니스 로직(도메인 코어)** 을 육각형(Hexagon)의 중심에 배치하고, 외부 시스템(UI·DB·외부 API)과의 통신을 **포트(Port, 인터페이스)** 와 **어댑터(Adapter, 구현체)** 를 통해 연결하여 비즈니스 로직이 외부 기술에 전혀 의존하지 않도록 설계하는 아키텍처.
 
 **특징**:
 - **Driving Side(좌측)**: 애플리케이션을 구동하는 외부 (UI·테스트·CLI) — 인바운드 어댑터.
