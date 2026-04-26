@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 11
 title: GQM (목표 기반 측정)
 ---
 

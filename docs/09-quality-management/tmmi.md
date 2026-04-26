@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 12
 title: TMMi (테스트 성숙도 모델)
 ---
 
