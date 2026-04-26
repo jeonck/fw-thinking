@@ -110,3 +110,77 @@
   color: var(--ifm-color-emphasis-700);
   line-height: 1.6;
 }
+
+/* ── 콘텐츠 배열 순서 섹션 ── */
+.orderSection {
+  padding: 3rem 0;
+  background-color: var(--ifm-background-surface-color);
+}
+
+.orderIntro {
+  font-size: 1.05rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.orderCard {
+  border: 2px solid;
+  border-radius: 8px;
+  overflow: hidden;
+  height: 100%;
+}
+
+.orderGroupLabel {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+  letter-spacing: 0.03em;
+}
+
+.orderRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.orderRow:last-child {
+  border-bottom: none;
+}
+
+.orderNum {
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 1.8rem;
+  padding-top: 0.15rem;
+}
+
+.orderContent {
+  flex: 1;
+  min-width: 0;
+}
+
+.orderName {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ifm-color-content);
+  text-decoration: none;
+  margin-bottom: 0.2rem;
+}
+
+.orderName:hover {
+  text-decoration: underline;
+}
+
+.orderFlow {
+  font-size: 0.75rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

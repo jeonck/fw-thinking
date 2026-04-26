@@ -161,6 +161,78 @@ function UseCaseSection() {
   );
 }
 
+const groups = [
+  {
+    label: '거버넌스 & 전략',
+    color: '#2563EB',
+    categories: [
+      {num: '01', name: 'IT 거버넌스 및 전략 경영', order: 'MECE → SWOT → Porter 5F → COBIT → ITIL → ITO …', link: '/docs/it-governance/intro'},
+      {num: '02', name: '엔터프라이즈 아키텍처 (EA) 및 설계', order: 'Zachman → TOGAF → FEAF → ITA → 4+1 View → SOA …', link: '/docs/enterprise-architecture/intro'},
+      {num: '03', name: '법규 및 컴플라이언스 대응', order: '개인정보보호법 → 전자금융거래법 → GDPR → HIPAA → PCI-DSS …', link: '/docs/legal-compliance/intro'},
+    ],
+  },
+  {
+    label: '기술 & 개발',
+    color: '#EA580C',
+    categories: [
+      {num: '04', name: '소프트웨어 공학 및 개발 방법론', order: 'Agile/Scrum → Kanban → Lean → TDD/BDD → DDD → Clean Arch → MSA …', link: '/docs/software-engineering/intro'},
+      {num: '05', name: '인프라, 운영 및 신기술 대응', order: 'ITIL 4 Ops → SRE → Cloud Adoption → IaC …', link: '/docs/infrastructure-operations/intro'},
+      {num: '06', name: '미래 기술 대응 및 도메인 특화', order: 'Generative AI → Industry 4.0 → Edge → Quantum → Blockchain → Web3 …', link: '/docs/future-technology/intro'},
+    ],
+  },
+  {
+    label: '데이터 & 보안',
+    color: '#7C3AED',
+    categories: [
+      {num: '07', name: '데이터 관리 및 AI 거버넌스', order: 'Data Governance → DAMA-DMBOK → DCAM → MDM → Big Data 5V → Data Lake → CRISP-DM …', link: '/docs/data-ai-governance/intro'},
+      {num: '08', name: '정보보호 및 보안 거버넌스', order: 'ISO 27001 → ISMS-P → NIST CSF → Zero Trust → IAM → STRIDE → Cyber Kill Chain …', link: '/docs/security-governance/intro'},
+    ],
+  },
+  {
+    label: '경영 & 품질',
+    color: '#16A34A',
+    categories: [
+      {num: '09', name: '품질 관리 및 신뢰성', order: 'TQM → PDCA → ISO 25010 → Six Sigma → SLA/SLO → Fishbone → Pareto …', link: '/docs/quality-management/intro'},
+      {num: '10', name: '경제성 분석 및 비즈니스 의사결정', order: '기회비용 → ROI/TCO → NPV/IRR → CBA → REI → TEI → IT Portfolio …', link: '/docs/economic-analysis/intro'},
+      {num: '11', name: '현대적 조직 및 일하는 방식', order: 'Tuckman → Dunbar → Psychological Safety → Dreyfus → Brooks\' Law → OKR …', link: '/docs/modern-organization/intro'},
+    ],
+  },
+];
+
+function ContentOrderSection() {
+  return (
+    <section className={styles.orderSection}>
+      <div className="container">
+        <Heading as="h2">콘텐츠 학습 순서 안내</Heading>
+        <p className={styles.orderIntro}>
+          각 카테고리는 <strong>개념·기반 → 핵심 프레임워크 → 확장·응용 → 특화 도구</strong> 순으로 배열되어 있습니다.
+          처음 접하는 독자는 앞에서부터, 특정 주제가 필요한 독자는 원하는 항목을 바로 찾아볼 수 있습니다.
+        </p>
+        <div className="row">
+          {groups.map((g) => (
+            <div key={g.label} className="col col--6" style={{marginBottom: '1.5rem'}}>
+              <div className={styles.orderCard} style={{borderColor: g.color}}>
+                <div className={styles.orderGroupLabel} style={{backgroundColor: g.color}}>
+                  {g.label}
+                </div>
+                {g.categories.map((cat) => (
+                  <div key={cat.num} className={styles.orderRow}>
+                    <span className={styles.orderNum} style={{color: g.color}}>{cat.num}</span>
+                    <div className={styles.orderContent}>
+                      <Link to={cat.link} className={styles.orderName}>{cat.name}</Link>
+                      <p className={styles.orderFlow}>{cat.order}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -171,6 +243,7 @@ export default function Home(): ReactNode {
       <main>
         <WhySection />
         <UseCaseSection />
+        <ContentOrderSection />
         <HomepageFeatures />
       </main>
     </Layout>
