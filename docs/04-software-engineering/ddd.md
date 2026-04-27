@@ -19,10 +19,10 @@ flowchart LR
 
 **정의**: 복잡한 비즈니스 문제를 해결하기 위해 기술적 구현보다 **비즈니스 도메인(업무 영역)의 모델과 로직** 을 설계의 중심에 두고, 도메인 전문가와 개발자 간의 공통 언어(유비쿼터스 언어)를 기반으로 소프트웨어를 설계·개발하는 방법론.
 
-**특징**:
-- **유비쿼터스 언어(Ubiquitous Language)**: 도메인 전문가와 개발자가 동일한 용어를 코드·문서·대화에서 일관되게 사용.
-- **전략적 설계**: Bounded Context와 Context Map으로 복잡한 도메인을 독립된 경계로 분리.
-- **전술적 설계**: Aggregate·Entity·Value Object·Domain Event로 도메인 모델을 정밀하게 구현.
+**특징**:  
+ **(유비쿼터스 언어(Ubiquitous Language))** 도메인 전문가와 개발자가 동일한 용어를 코드·문서·대화에서 일관되게 사용.  
+ **(전략적 설계)** Bounded Context와 Context Map으로 복잡한 도메인을 독립된 경계로 분리.  
+ **(전술적 설계)** Aggregate·Entity·Value Object·Domain Event로 도메인 모델을 정밀하게 구현.  
 
 ---
 

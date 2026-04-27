@@ -13,7 +13,10 @@ flowchart LR
 ```
 **정의**: 음원 스트리밍 서비스 Spotify에서 개발한 조직 구조로, 소규모 팀의 자율성(Autonomy)을 극대화하면서도 전사적 방향성(Alignment)을 유지하기 위한 목적 중심의 매트릭스 조직 모델.
 
-**특징**: **Squad, Tribe, Chapter, Guild**라는 독특한 조직 단위 정의, "Fail Fast, Learn Fast" 문화, 기술적 부채 관리 중시.
+**특징**:  
+ **(4대 조직 단위)** Squad·Tribe·Chapter·Guild의 독특한 조직 단위로 자율성과 정렬을 동시에 확보.  
+ **(Fail Fast 문화)** 빠른 실험과 실패에서 학습하는 "Fail Fast, Learn Fast" 문화로 혁신을 가속화.  
+ **(기술 부채 관리)** 기술적 부채를 명시적으로 관리하여 장기적 개발 속도와 코드 품질을 유지.  
 
 ---
 

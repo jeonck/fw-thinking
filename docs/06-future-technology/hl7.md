@@ -19,10 +19,10 @@ flowchart LR
 
 **정의**: HL7(Health Level 7)은 의료 정보 교환의 국제 표준화 기구로, 가장 최신 표준인 **FHIR(Fast Healthcare Interoperability Resources)** 는 RESTful API 기반의 리소스(Resource) 단위 의료 데이터 교환 표준으로, 병원 정보 시스템 간 환자 정보·임상 데이터의 안전하고 일관된 공유를 가능케 하는 프레임워크.
 
-**특징**:
-- **RESTful API 기반**: JSON·XML 형식으로 웹 표준 방식 의료 데이터 교환 — 기존 HL7 v2·v3 대비 구현 용이성 대폭 향상.
-- **리소스(Resource) 중심**: Patient·Observation·MedicationRequest 등 80여 개 표준 리소스 정의.
-- 미국 ONC(국가의료IT조정실)·CMS 규정으로 **FHIR 지원 법적 의무화** — 한국 보건부도 추진 중.
+**특징**:  
+ **(RESTful API 기반)** JSON·XML 형식으로 웹 표준 방식 의료 데이터 교환 — 기존 HL7 v2·v3 대비 구현 용이성 대폭 향상.  
+ **(리소스(Resource) 중심)** Patient·Observation·MedicationRequest 등 80여 개 표준 리소스 정의.  
+ **(법적 의무화)** 미국 ONC(국가의료IT조정실)·CMS 규정으로 **FHIR 지원 법적 의무화** — 한국 보건부도 추진 중.  
 
 **HL7 표준 버전 진화**
 

@@ -13,7 +13,10 @@ flowchart LR
 ```
 **정의**: 소프트웨어 개발(Development)과 운영(Operations) 사이의 소통, 협업, 통합을 강조하여 품질 높고 빠른 배포를 가능케 하는 조직적 문화이자 방법론.
 
-**특징**: **CI/CD(지속적 통합/배포)** 자동화, 공유(Sharing), 측정(Measurement), 축적(Lean)을 핵심 가치(CAMS)로 삼음.
+**특징**:  
+ **(CI/CD 자동화)** 지속적 통합/배포 파이프라인 자동화로 릴리스 주기를 단축하고 품질을 확보.  
+ **(CAMS 가치)** Culture·Automation·Measurement·Sharing의 4가지 핵심 가치로 DevOps 문화를 구현.  
+ **(협업 문화)** 개발·운영 경계를 허물어 공동 책임과 빠른 피드백 루프를 실현.  
 
 ---
 

@@ -19,10 +19,10 @@ flowchart LR
 
 **정의**: 빅데이터를 규모(Volume), 속도(Velocity), 다양성(Variety), 정확성(Veracity), 가치(Value)의 **5가지 속성**으로 정의하고, 각 속성의 특성에 맞게 수집·저장·처리·분석 아키텍처를 설계하여 데이터에서 비즈니스 가치를 창출하는 프레임워크.
 
-**특징**:
-- 초기 3V(Volume·Velocity·Variety)에서 **Veracity(정확성)** 와 **Value(가치)** 를 추가한 5V 확장 모델.
-- 데이터의 양적 특성(규모·속도·다양성)과 질적 특성(정확성·가치)을 통합적으로 관리.
-- Lambda Architecture, Kappa Architecture 등 빅데이터 처리 아키텍처 선택의 기준으로 활용.
+**특징**:  
+ **(5V 확장 모델)** 초기 3V(Volume·Velocity·Variety)에서 **Veracity(정확성)** 와 **Value(가치)** 를 추가한 5V 확장 모델.  
+ **(양·질 통합 관리)** 데이터의 양적 특성(규모·속도·다양성)과 질적 특성(정확성·가치)을 통합적으로 관리.  
+ **(아키텍처 선택 기준)** Lambda Architecture, Kappa Architecture 등 빅데이터 처리 아키텍처 선택의 기준으로 활용.  
 
 ---
 

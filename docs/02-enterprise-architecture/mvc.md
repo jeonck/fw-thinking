@@ -19,10 +19,10 @@ flowchart LR
 
 **정의**: 애플리케이션을 **Model(데이터·비즈니스 로직), View(사용자 인터페이스), Controller(요청 처리·흐름 제어)** 의 세 가지 역할로 분리하여, 각 컴포넌트가 독립적으로 개발·변경·테스트될 수 있도록 하는 소프트웨어 아키텍처 패턴.
 
-**특징**:
-- 1970년대 Smalltalk에서 기원하여 웹·모바일·데스크톱 애플리케이션 전반에 적용되는 **범용 UI 패턴**.
-- Spring MVC, Django, Rails, ASP.NET 등 주요 웹 프레임워크의 기반 설계 패턴.
-- View와 Model이 직접 통신하여 **View가 Model 변경을 관찰(Observer)** 하는 구조.
+**특징**:  
+ **(범용 UI 패턴)** 1970년대 Smalltalk에서 기원하여 웹·모바일·데스크톱 애플리케이션 전반에 적용되는 **범용 UI 패턴**.  
+ **(주요 프레임워크 적용)** Spring MVC, Django, Rails, ASP.NET 등 주요 웹 프레임워크의 기반 설계 패턴.  
+ **(Observer 패턴)** View와 Model이 직접 통신하여 **View가 Model 변경을 관찰(Observer)** 하는 구조.  
 
 ---
 

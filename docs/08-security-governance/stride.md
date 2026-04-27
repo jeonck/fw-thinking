@@ -19,10 +19,10 @@ flowchart LR
 
 **정의**: Microsoft가 개발한 위협 모델링 프레임워크로, 소프트웨어 시스템에서 발생 가능한 보안 위협을 **Spoofing(신원 위장), Tampering(변조), Repudiation(부인), Information Disclosure(정보 노출), Denial of Service(서비스 거부), Elevation of Privilege(권한 상승)** 의 6가지 유형으로 분류하여 설계 단계부터 체계적으로 식별·완화하는 위협 모델링 기법.
 
-**특징**:
-- **Shift-Left 보안**: 개발 후 취약점을 수정하는 것보다 설계 단계 위협 식별이 비용 효율적.
-- DFD(Data Flow Diagram)와 결합하여 시스템 경계·구성 요소·데이터 흐름을 분석 기반으로 활용.
-- DREAD·PASTA·TRIKE 등 다른 위협 모델링 방법론과 상호 보완적으로 활용 가능.
+**특징**:  
+ **(Shift-Left 보안)** 개발 후 취약점을 수정하는 것보다 설계 단계 위협 식별이 비용 효율적.  
+ **(DFD 기반 분석)** DFD(Data Flow Diagram)와 결합하여 시스템 경계·구성 요소·데이터 흐름을 분석 기반으로 활용.  
+ **(보완적 활용)** DREAD·PASTA·TRIKE 등 다른 위협 모델링 방법론과 상호 보완적으로 활용 가능.  
 
 ---
 
