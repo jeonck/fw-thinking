@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>프레임워크적 사고</ShortName>
+  <Description>Search 프레임워크적 사고</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://jeonck.github.io/fw-thinking/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://jeonck.github.io/fw-thinking/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://jeonck.github.io/fw-thinking/opensearch.xml" />
+  <moz:SearchForm>https://jeonck.github.io/fw-thinking/</moz:SearchForm>
+</OpenSearchDescription>
