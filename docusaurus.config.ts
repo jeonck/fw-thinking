@@ -50,6 +50,13 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    algolia: {
+      appId: 'RQ33H38BKM',
+      apiKey: 'db7cf6a2e68270d5615204d1ac9e3ab3',
+      indexName: 'fw-thinking',
+      contextualSearch: false,
+      searchPagePath: 'search',
+    },
     colorMode: {
       respectPrefersColorScheme: true,
     },
