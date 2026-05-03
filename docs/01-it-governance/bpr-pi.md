@@ -3,17 +3,18 @@ sidebar_position: 17
 title: BPR / PI
 ---
 
-## 1. BPR / PI: 극적인 성과 달성을 위한 프로세스 재창조
+## 1. BPR / PI: 극적인 성과 달성을 위한 프로세스 혁신
 
 ```mermaid
 flowchart LR
-    A["전통적 업무 체계"] -- "극적인 성과 달성을 위한 프로세스 재창조" --> B["BPR / PI (Business Process Reengineering / Process Innovation)"]
+    A["전통적 업무 체계"] -- "비용, 품질, 서비스 혁신을 통한 극적 성과 달성" --> B["BPR / PI (Business Process Reengineering / Process Innovation)"]
 ```
 **핵심**: 기업의 업무 프로세스를 비용, 품질, 서비스 등 핵심 지표를 기준으로 근본적으로 재설계하여 극적인 성과를 달성하는 경영 혁신 기법.
 
 **특징**:  
  **(근본적 변화)** 점진적 개선이 아닌 업무 프로세스의 근본적 재설계.  
  **(성과지표 기반)** 비용, 품질, 서비스 속도 등 핵심 성과 달성.  
+
 
 
 
